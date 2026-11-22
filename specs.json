@@ -1,0 +1,3755 @@
+{
+  "firmware": {},
+  "recalls": [
+    {
+      "contact": "recall@segway.com · +1 800-914-6110",
+      "date": "2025-03-20",
+      "hazard": "Le mécanisme de pliage peut céder et la potence ou le guidon se replier pendant la conduite : risque de chute. 68 défaillances signalées, dont 20 blessés.",
+      "id": "segway-max-g30p-g30lp-2025",
+      "identify": "Concerne les Max G30P (noire, accents jaunes) et Max G30LP (grise, accents jaunes) vendues de janvier 2020 à février 2025. Le numéro de modèle figure sur l'étiquette sur le côté du plateau.",
+      "regions": [
+        "États-Unis"
+      ],
+      "remedy": "Arrêtez d'utiliser la trottinette et contactez Segway : un kit d'entretien gratuit (outils et instructions) permet de vérifier et de resserrer le mécanisme de pliage.",
+      "severity": "stopUsing",
+      "targets": [
+        {
+          "model": "ninebot-classic",
+          "variants": [
+            "Max G30",
+            "Max G30LP"
+          ]
+        }
+      ],
+      "title": "Rappel Segway Ninebot Max G30P et Max G30LP : mécanisme de pliage",
+      "url": "https://service.segway.com/recall"
+    },
+    {
+      "contact": "recall@segway.com · +1 866-473-4929",
+      "date": "2024-11-21",
+      "hazard": "La fourche avant peut casser : risque de chute et de blessure. 31 fourches cassées signalées, dont 6 blessés.",
+      "id": "segway-p100s-2024",
+      "identify": "Modèle P100S fabriqué en 2023 : dans le numéro de série (côté gauche), les chiffres 6-7 donnent l'année et 8-9 la semaine ; concerné à partir de 2308.",
+      "regions": [
+        "États-Unis"
+      ],
+      "remedy": "Arrêtez d'utiliser la trottinette et contactez Segway pour une réparation gratuite (magasin proche ou étiquette d'envoi prépayée).",
+      "serialPattern": "^.{5}23(0[89]|[1-5][0-9])",
+      "severity": "stopUsing",
+      "targets": [
+        {
+          "model": "ninebot-classic",
+          "variants": [
+            "P100S"
+          ]
+        }
+      ],
+      "title": "Rappel Segway Ninebot P100 (P100S) : fourche avant",
+      "url": "https://service.segway.com/recall"
+    },
+    {
+      "contact": "Service client Decathlon",
+      "date": "2025-12-11",
+      "firmware": [
+        "8.2"
+      ],
+      "hazard": "Un défaut du logiciel moteur (version 8.2) peut faire tourner le pédalier en arrière de façon inattendue : risque de chute et de blessure.",
+      "id": "decathlon-e-actv-900-2025",
+      "identify": "Rockrider E-ACTV 900 HF / LF (et Btwin LD 920E MF, LD 940E LF) vendus du 1er avril au 1er décembre 2025, avec le logiciel moteur 8.2.",
+      "regions": [
+        "Europe"
+      ],
+      "remedy": "Arrêtez d'utiliser le vélo et contactez Decathlon ou votre magasin : seul Decathlon peut vérifier et mettre à jour la version du logiciel.",
+      "severity": "stopUsing",
+      "targets": [
+        {
+          "model": "rockrider-e-actv-100-lf",
+          "variants": [
+            "E-ACTV 900 HF",
+            "E-ACTV 900 LF"
+          ]
+        }
+      ],
+      "title": "Rappel Decathlon Rockrider E-ACTV 900 : logiciel moteur 8.2"
+    }
+  ],
+  "sheets": {
+    "aike|Äike 11": {
+      "chargeTime": "4 h",
+      "chemistry": "lithiumIon",
+      "motor": "350 W · 500 W max",
+      "range": "50 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "aike|Äike T": {
+      "chargeTime": "≈ 4 h (≈ 8 h en USB-C)",
+      "charger": "Chargeur, ou USB-C 100 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 583.2,
+      "motor": "350 W",
+      "range": "40 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "weightKg": 3.8
+    },
+    "ampler|Axel": {
+      "capacityMah": 7000,
+      "cells": "Cellules LG",
+      "chargeTime": "2,5 h",
+      "charger": "3 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 600,
+      "cycleLifeNote": "(≈ 70 % après 40 000 km)",
+      "energyWh": 336,
+      "motor": "250 W · 45 Nm",
+      "range": "45–100 km",
+      "unofficial": [
+        "capacity",
+        "motor"
+      ],
+      "voltage": 48
+    },
+    "ampler|Curt": {
+      "capacityMah": 7000,
+      "cells": "Cellules LG",
+      "chargeTime": "3 h (anciens : 2,5 h)",
+      "charger": "USB-C 140 W (anciens modèles : 3 A)",
+      "chemistry": "lithiumIon",
+      "energyWh": 336,
+      "motor": "250 W · 400 W max",
+      "range": "50–100 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "ampler|Nova": {
+      "capacityMah": 7000,
+      "cells": "Cellules LG",
+      "chargeTime": "3 h",
+      "charger": "USB-C 140 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 336,
+      "motor": "250 W · 400 W max · 45 Nm",
+      "range": "50–100 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "ampler|Stout": {
+      "capacityMah": 7000,
+      "cells": "Cellules LG",
+      "chargeTime": "2,5 h",
+      "charger": "3 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 336,
+      "motor": "250 W",
+      "range": "50–100 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "aovo-lenzod|AOVO Pro (ES80)": {
+      "capacityMah": 10500,
+      "chargeTime": "4–5 h",
+      "charger": "42 V · 2 A",
+      "energyWh": 378,
+      "motor": "350 W",
+      "range": "30–35 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "aovo-lenzod|Joyor S5": {
+      "capacityMah": 13000,
+      "charger": "130 W",
+      "chemistry": "ternary",
+      "energyWh": 624,
+      "motor": "600 W",
+      "range": "40–55 km",
+      "unofficial": [
+        "capacity",
+        "charger",
+        "chemistry",
+        "energy",
+        "range",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "aovo-lenzod|Joyor Y10": {
+      "capacityMah": 26000,
+      "chemistry": "ternary",
+      "energyWh": 1248,
+      "motor": "500 W",
+      "range": "100 km",
+      "unofficial": [
+        "chemistry",
+        "energy"
+      ],
+      "voltage": 48
+    },
+    "aovo-lenzod|Joyor Y8S": {
+      "capacityMah": 26000,
+      "chemistry": "ternary",
+      "energyWh": 1248,
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "bafang-b06|BBS02B 750 W": {
+      "motor": "750 W · 100–120 Nm (contrôleur 25 A)",
+      "notes": [
+        "Batterie fournie par le monteur du vélo"
+      ],
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "bafang-b06|M500": {
+      "motor": "250 W · 95 Nm (36 / 43 / 48 V)",
+      "notes": [
+        "Batterie fournie par le fabricant du vélo"
+      ]
+    },
+    "bafang-b06|M510": {
+      "motor": "250 W · 95–110 Nm (36 / 43 / 48 V)",
+      "notes": [
+        "Batterie fournie par le fabricant du vélo"
+      ]
+    },
+    "bafang-b06|M600": {
+      "motor": "250 ou 500 W · 120 Nm (36 / 43 / 48 V)",
+      "notes": [
+        "Batterie fournie par le fabricant du vélo"
+      ]
+    },
+    "bosch-smart-system|CompactTube 400": {
+      "batteryRef": "BBP3240 / BBP3241 / BBP3242",
+      "capacityMah": 11100,
+      "chargeTime": "3,5 h (4 A) · 6 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 400,
+      "voltage": 36,
+      "weightKg": 2.1
+    },
+    "bosch-smart-system|PowerMore 250": {
+      "batteryRef": "BBP3620",
+      "capacityMah": 6700,
+      "chargeTime": "2,9 h (4 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 250,
+      "unofficial": [
+        "batteryRef"
+      ],
+      "voltage": 36,
+      "weightKg": 1.5
+    },
+    "bosch-smart-system|PowerPack 400 Frame": {
+      "capacityMah": 11100,
+      "chargeTime": "3,5 h (4 A) · 6 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 400,
+      "voltage": 36,
+      "weightKg": 2.2
+    },
+    "bosch-smart-system|PowerPack 400 Rack": {
+      "capacityMah": 10800,
+      "chargeTime": "3,5 h (4 A) · 6 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 400,
+      "voltage": 36,
+      "weightKg": 2.7
+    },
+    "bosch-smart-system|PowerPack 500 Rack": {
+      "capacityMah": 13600,
+      "chargeTime": "4,5 h (4 A) · 7,3 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 500,
+      "voltage": 36,
+      "weightKg": 2.8
+    },
+    "bosch-smart-system|PowerPack 545 Frame": {
+      "capacityMah": 14600,
+      "chargeTime": "4,9 h (4 A) · 7,7 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 540,
+      "voltage": 36,
+      "weightKg": 3
+    },
+    "bosch-smart-system|PowerPack 725 Frame": {
+      "batteryRef": "BBP3570",
+      "capacityMah": 19200,
+      "chargeTime": "≈ 6 h (4 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 725,
+      "unofficial": [
+        "chargeTime",
+        "weight"
+      ],
+      "voltage": 36,
+      "weightKg": 4
+    },
+    "bosch-smart-system|PowerPack 800 Frame": {
+      "capacityMah": 22200,
+      "chargeTime": "6,9 h (4 A) · 12,4 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 800,
+      "voltage": 36,
+      "weightKg": 3.9
+    },
+    "bosch-smart-system|PowerTube 500": {
+      "capacityMah": 13400,
+      "chargeTime": "4,5 h (4 A) · 7,3 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 500,
+      "voltage": 36,
+      "weightKg": 3
+    },
+    "bosch-smart-system|PowerTube 600": {
+      "batteryRef": "BBP3860",
+      "capacityMah": 16700,
+      "chargeTime": "5,3 h (4 A) · 9,1 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 600,
+      "unofficial": [
+        "batteryRef"
+      ],
+      "voltage": 36,
+      "weightKg": 3
+    },
+    "bosch-smart-system|PowerTube 625": {
+      "capacityMah": 16700,
+      "chargeTime": "5,4 h (4 A) · 9,3 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 625,
+      "voltage": 36,
+      "weightKg": 3.6
+    },
+    "bosch-smart-system|PowerTube 750": {
+      "capacityMah": 20100,
+      "chargeTime": "6 h (4 A) · 11 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 750,
+      "voltage": 36,
+      "weightKg": 4.3
+    },
+    "bosch-smart-system|PowerTube 800": {
+      "capacityMah": 21300,
+      "cells": "21700",
+      "chargeTime": "6,9 h (4 A) · 12,4 h (2 A)",
+      "charger": "Chargeurs 2 A / 4 A / 12 A (50 % en ≈ 1,2 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(80 % de capacité, test en laboratoire)",
+      "energyWh": 800,
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36,
+      "weightKg": 3.9
+    },
+    "brose-allride|Batterie 630": {
+      "batteryRef": "TP-BOS-01-35S",
+      "capacityMah": 17000,
+      "chemistry": "lithiumIon",
+      "energyWh": 630,
+      "motor": "Drive S Mag · 250 W · 90 Nm (≈ 565 W max)",
+      "unofficial": [
+        "batteryRef",
+        "capacity",
+        "energy",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36,
+      "weightKg": 3.8
+    },
+    "comodule|MATE City": {
+      "capacityMah": 13000,
+      "chemistry": "lithiumIon",
+      "motor": "250 W",
+      "range": "80 km"
+    },
+    "comodule|MATE X": {
+      "batteryPower": "BMS 30 A",
+      "capacityMah": 17500,
+      "cells": "18650 LG MJ1",
+      "chemistry": "lithiumIon",
+      "energyWh": 840,
+      "motor": "250 W (UE) · 750 W (750S) · 80 Nm max",
+      "notes": [
+        "Versions 14 / 17 / 17,5 Ah"
+      ],
+      "range": "120 km",
+      "unofficial": [
+        "batteryPower",
+        "cells",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "comodule|Super73 R-Series": {
+      "capacityMah": 20000,
+      "chargeTime": "6–7 h",
+      "charger": "Chargeurs 2 / 3 / 5 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 960,
+      "motor": "750 W (US) · 250 W (UE)",
+      "range": "64–88 km",
+      "unofficial": [
+        "weight"
+      ],
+      "voltage": 48,
+      "weightKg": 5.1
+    },
+    "comodule|Super73 S-Adventure": {
+      "capacityMah": 20000,
+      "chargeTime": "6–7 h",
+      "charger": "Chargeurs 2 / 3 / 5 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 960,
+      "motor": "750 W (US) · 250 W (UE)",
+      "notes": [
+        "Certifiée UL 2271"
+      ],
+      "range": "64–120 km",
+      "unofficial": [
+        "weight"
+      ],
+      "voltage": 48,
+      "weightKg": 5.1
+    },
+    "comodule|Super73 Z-Adventure Core": {
+      "capacityMah": 10000,
+      "chargeTime": "5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 480,
+      "motor": "750 W · 1 200 W max",
+      "voltage": 48
+    },
+    "comodule|Super73 Z-Adventure SE": {
+      "capacityMah": 15000,
+      "chargeTime": "7–8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 720,
+      "motor": "750 W · 1 200 W max",
+      "voltage": 48
+    },
+    "comodule|Veloretti Ivy Two / Ace Two": {
+      "capacityMah": 15000,
+      "chemistry": "lithiumIon",
+      "energyWh": 540,
+      "motor": "Bafang 250 W · 65–70 Nm",
+      "range": "60–120 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 36
+    },
+    "cowboy|Cowboy 2": {
+      "capacityMah": 10000,
+      "chargeTime": "3,5 h",
+      "charger": "36 V · 3 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "energyWh": 360,
+      "motor": "250 W · 30 Nm",
+      "range": "70 km",
+      "voltage": 36,
+      "weightKg": 2.4
+    },
+    "cowboy|Cowboy 3": {
+      "capacityMah": 10000,
+      "cells": "21700",
+      "chargeTime": "3,5 h",
+      "charger": "36 V · 3 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "energyWh": 360,
+      "motor": "250 W · 30 Nm",
+      "range": "70 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36,
+      "weightKg": 2.4
+    },
+    "cowboy|Cowboy 4": {
+      "capacityMah": 10000,
+      "chargeTime": "3,5 h",
+      "charger": "36 V · 3 A (4 A performance : 2,5 h)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "energyWh": 360,
+      "motor": "250 W · 45 Nm",
+      "range": "40–90 km",
+      "voltage": 36,
+      "weightKg": 2.4
+    },
+    "egret|GT": {
+      "capacityMah": 20000,
+      "cells": "13S",
+      "chargeTime": "≈ 7 h",
+      "charger": "54,6 V · 3 A",
+      "energyWh": 949,
+      "motor": "500 W · 1 620 W max",
+      "notes": [
+        "Option 15 Ah · 712 Wh · 75 km"
+      ],
+      "range": "100 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48,
+      "weightKg": 5.9
+    },
+    "egret|One": {
+      "capacityMah": 14000,
+      "cells": "13S · Samsung",
+      "chargeTime": "4,5 h",
+      "energyWh": 672,
+      "motor": "500 W",
+      "range": "65 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48
+    },
+    "egret|Pro": {
+      "capacityMah": 17500,
+      "cells": "13S",
+      "chargeTime": "5,5 h",
+      "energyWh": 840,
+      "motor": "500 W · 950 W max",
+      "range": "80 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48
+    },
+    "egret|X Prime": {
+      "capacityMah": 13500,
+      "cells": "13S",
+      "chargeTime": "6,5 h",
+      "energyWh": 649,
+      "motor": "500 W · 1 350 W max",
+      "range": "65 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48.1,
+      "weightKg": 4.5
+    },
+    "egret|X Ultra": {
+      "capacityMah": 18000,
+      "cells": "13S",
+      "chargeTime": "9 h",
+      "energyWh": 865,
+      "motor": "500 W · 1 350 W max",
+      "range": "90 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48.1,
+      "weightKg": 5.5
+    },
+    "egret|X+": {
+      "capacityMah": 14000,
+      "chargeTime": "4 h 30",
+      "chemistry": "lithiumIon",
+      "energyWh": 672,
+      "motor": "500 W · 900 W max · 35 Nm",
+      "range": "60 km",
+      "unofficial": [
+        "motor"
+      ],
+      "voltage": 48
+    },
+    "fiido|C11 Pro": {
+      "capacityMah": 10400,
+      "cells": "Cellules DMEGC / EVE",
+      "chargeTime": "≈ 5 h",
+      "charger": "48 V · 2 A",
+      "energyWh": 499.2,
+      "motor": "250 W · 55 Nm",
+      "notes": [
+        "Batterie amovible"
+      ],
+      "range": "104 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48
+    },
+    "fiido|D3 Pro": {
+      "capacityMah": 7800,
+      "cells": "Cellules DMEGC",
+      "chargeTime": "3–5 h",
+      "charger": "36 V · 2 A",
+      "energyWh": 280.8,
+      "motor": "250 W · 429 W max",
+      "notes": [
+        "Batterie certifiée CE, UN38.3, MSDS"
+      ],
+      "range": "79 km (Eco)",
+      "voltage": 36
+    },
+    "fiido|M1 Pro 2025": {
+      "capacityMah": 11600,
+      "cells": "Cellules DMEGC",
+      "charger": "48 V · 2 A",
+      "energyWh": 556.8,
+      "motor": "500 W · 50 Nm",
+      "notes": [
+        "Ancienne version : 614,4 Wh"
+      ],
+      "range": "89 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "giant-ridecontrol|EnergyPak Smart 500": {
+      "capacityMah": 13900,
+      "cells": "40 × 18650",
+      "charger": "6 A max",
+      "chemistry": "lithiumIon",
+      "energyWh": 500,
+      "unofficial": [
+        "capacity",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "giant-ridecontrol|EnergyPak Smart 625": {
+      "capacityMah": 17400,
+      "cells": "40 × 18650",
+      "chargeTime": "80 % en 2,2 h",
+      "charger": "6 A max",
+      "chemistry": "lithiumIon",
+      "energyWh": 625,
+      "unofficial": [
+        "capacity",
+        "voltage"
+      ],
+      "voltage": 36,
+      "weightKg": 3.8
+    },
+    "giant-ridecontrol|EnergyPak Smart 800": {
+      "chemistry": "lithiumIon",
+      "energyWh": 800,
+      "notes": [
+        "IPX6"
+      ],
+      "weightKg": 4.4
+    },
+    "inokim|Light 2": {
+      "capacityMah": 10400,
+      "cells": "10S · LG",
+      "chargeTime": "≈ 5 h",
+      "energyWh": 374,
+      "motor": "350 W · 650 W max",
+      "range": "24–32 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "inokim|Light 2 Super": {
+      "capacityMah": 13600,
+      "chargeTime": "4–6 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 380,
+      "motor": "350 W · 650 W max",
+      "range": "27–40 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "inokim|Mini 2": {
+      "chargeTime": "4 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 281,
+      "motor": "250 W",
+      "range": "23–28 km",
+      "unofficial": [
+        "energy"
+      ]
+    },
+    "inokim|OX": {
+      "capacityMah": 13000,
+      "cells": "16S",
+      "chargeTime": "9–11 h",
+      "energyWh": 780,
+      "motor": "800 W · 1 300 W max",
+      "notes": [
+        "Option 21 Ah"
+      ],
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "inokim|OXO": {
+      "capacityMah": 26000,
+      "cells": "16S · LG",
+      "chargeTime": "12–14 h",
+      "energyWh": 1560,
+      "motor": "2 × 1 000 W · 2 600 W max",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "inokim|Quick 3": {
+      "capacityMah": 13000,
+      "cells": "Cellules LG",
+      "chargeTime": "6–7 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 468,
+      "motor": "450 W",
+      "range": "32–40 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "inokim|Quick 3 Super+": {
+      "cells": "Cellules LG",
+      "chargeTime": "6,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 624,
+      "motor": "450 W · 1 000 W max",
+      "range": "45 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "inokim|Quick 4": {
+      "capacityMah": 16000,
+      "cells": "14S · Samsung",
+      "chargeTime": "7 h",
+      "energyWh": 832,
+      "motor": "600 W · 1 100 W max",
+      "notes": [
+        "Option 13 Ah"
+      ],
+      "range": "71 km",
+      "unofficial": [
+        "cells",
+        "energy",
+        "range"
+      ],
+      "voltage": 52
+    },
+    "iscooter-kcq|i10": {
+      "capacityMah": 15000,
+      "chargeTime": "6–8 h",
+      "charger": "42 V",
+      "energyWh": 540,
+      "motor": "650 W",
+      "range": "45 km",
+      "unofficial": [
+        "energy",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "iscooter-kcq|i9": {
+      "capacityMah": 7800,
+      "chargeTime": "5–6 h",
+      "energyWh": 281,
+      "motor": "350 W",
+      "range": "29 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "iscooter-kcq|i9 Max": {
+      "capacityMah": 10400,
+      "chargeTime": "4–6 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 374.4,
+      "motor": "500 W",
+      "range": "40 km",
+      "unofficial": [
+        "chargeTime",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "iscooter-kcq|i9 Pro": {
+      "capacityMah": 7800,
+      "chargeTime": "5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 281,
+      "motor": "350 W",
+      "range": "30–35 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "iscooter-kcq|iX4": {
+      "capacityMah": 15000,
+      "chargeTime": "6–8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 720,
+      "motor": "800 W",
+      "range": "50 km",
+      "unofficial": [
+        "chargeTime",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "iscooter-kcq|iX5": {
+      "capacityMah": 15000,
+      "chargeTime": "≈ 5–7 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 720,
+      "motor": "1 000 W",
+      "range": "55 km",
+      "unofficial": [
+        "chargeTime",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "kukirin|A1": {
+      "capacityMah": 13000,
+      "chargeTime": "7–8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 624,
+      "motor": "800 W",
+      "range": "45 km",
+      "unofficial": [
+        "chargeTime",
+        "energy"
+      ],
+      "voltage": 48
+    },
+    "kukirin|C1 Pro": {
+      "capacityMah": 26000,
+      "cells": "18650",
+      "chargeTime": "8–9 h",
+      "charger": "3 A (charge rapide)",
+      "chemistry": "lithiumIon",
+      "energyWh": 1248,
+      "motor": "500 W · 800 W max",
+      "range": "100 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 48
+    },
+    "kukirin|G2 Max": {
+      "capacityMah": 20000,
+      "chargeTime": "10–11 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 960,
+      "motor": "1 000 W · 1 200 W max",
+      "range": "70 km",
+      "unofficial": [
+        "chargeTime"
+      ],
+      "voltage": 48
+    },
+    "kukirin|G2 Pro": {
+      "capacityMah": 15600,
+      "cells": "13S6P · 78 × 18650 2 600 mAh",
+      "chargeTime": "7–8 h",
+      "charger": "54,6 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 749,
+      "motor": "600 W",
+      "range": "55–65 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "kukirin|G3": {
+      "capacityMah": 18000,
+      "cells": "14S · 18650",
+      "chargeTime": "≈ 10 h",
+      "charger": "58,8 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 936,
+      "motor": "1 200 W",
+      "range": "60–70 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 52
+    },
+    "kukirin|G4": {
+      "capacityMah": 20000,
+      "cells": "16S",
+      "energyWh": 1200,
+      "motor": "2 000 W (2 400 W max)",
+      "range": "75 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "kukirin|G4 Max": {
+      "capacityMah": 35200,
+      "cells": "16S",
+      "chargeTime": "≈ 3–4 h avec 2 chargeurs",
+      "charger": "67,2 V · 5 A (2 prises)",
+      "energyWh": 2112,
+      "motor": "2 × 1 600 W",
+      "range": "95–100 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "kukirin|Kugoo Kirin C1 Pro": {
+      "capacityMah": 25000,
+      "cells": "18650",
+      "chemistry": "lithiumIon",
+      "motor": "500 W",
+      "range": "100 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "kukirin|Kugoo Kirin G2 Pro": {
+      "capacityMah": 15600,
+      "cells": "18650",
+      "chargeTime": "7–8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 749,
+      "motor": "600 W · 1 000 W max · 23 Nm",
+      "range": "55–58 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "kukirin|Kugoo Kirin M4": {
+      "capacityMah": 12500,
+      "chemistry": "lithiumIon",
+      "energyWh": 600,
+      "motor": "500 W",
+      "range": "45 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "kukirin|Kugoo Kirin M4 Pro": {
+      "capacityMah": 18000,
+      "cells": "13S",
+      "chargeTime": "8–10 h",
+      "energyWh": 864,
+      "motor": "500 W",
+      "range": "60–70 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "kukirin|Kugoo Kirin S1 Pro": {
+      "capacityMah": 7500,
+      "cells": "10S · 18650",
+      "chargeTime": "≈ 4 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 270,
+      "motor": "350 W",
+      "range": "30 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "kukirin|Kugoo Kirin V1": {
+      "capacityMah": 7500,
+      "chargeTime": "5–6 h",
+      "energyWh": 360,
+      "motor": "350–400 W",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "mahle-smartbike|X20": {
+      "batteryPower": "3,2 A max",
+      "batteryRef": "iX2",
+      "chargeTime": "80 % en moins de 2 h (4 A)",
+      "charger": "X Active Charger 42 V · 2 A / 4 A",
+      "energyWh": 236,
+      "motor": "Moyeu arrière X20 · 65 Nm",
+      "notes": [
+        "Option iX3 : 350 Wh · 36 V · 2,25 kg · 4 A max",
+        "Prolongateur eX1 : 171 Wh · 36 V · 1,1 kg"
+      ],
+      "range": "jusqu'à 200 km avec le prolongateur eX1",
+      "voltage": 36,
+      "weightKg": 1.5
+    },
+    "mahle-smartbike|X35+ / ebikemotion": {
+      "energyWh": 250,
+      "motor": "Moyeu arrière X35+ · 40 Nm",
+      "notes": [
+        "Prolongateur : 208 Wh · 1,6 kg *"
+      ],
+      "unofficial": [
+        "weight"
+      ],
+      "voltage": 36,
+      "weightKg": 1.14
+    },
+    "minimotors-dualtron|Achilleus": {
+      "capacityMah": 35000,
+      "cells": "21700 LG ou Samsung",
+      "chargeTime": "18–20 h (≈ 7 h rapide)",
+      "chemistry": "lithiumIon",
+      "energyWh": 2100,
+      "motor": "2 × 1 400 W · 4 648 W max",
+      "range": "112–120 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "minimotors-dualtron|Mini": {
+      "capacityMah": 17500,
+      "cells": "LG 3 200 mAh ou MJ1",
+      "chargeTime": "6–8 h (13 Ah)",
+      "chemistry": "lithiumIon",
+      "energyWh": 910,
+      "motor": "1 450 W max",
+      "notes": [
+        "Versions 13 / 17,5 / 21 Ah"
+      ],
+      "range": "45–60 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 52
+    },
+    "minimotors-dualtron|Popular": {
+      "capacityMah": 25000,
+      "cells": "Cellules LG",
+      "chargeTime": "≈ 12,5 h (≈ 3,5 h rapide)",
+      "charger": "Chargeur standard et rapide",
+      "chemistry": "lithiumIon",
+      "energyWh": 1300,
+      "motor": "1 450 W (simple) · 2 × 900 W (double)",
+      "notes": [
+        "Versions 14 / 20 / 25 Ah"
+      ],
+      "range": "60 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 52
+    },
+    "minimotors-dualtron|Storm": {
+      "capacityMah": 31500,
+      "cells": "20S9P · LG 3 500 mAh",
+      "chargeTime": "21 h / 10 h / 4,8 h",
+      "charger": "1,5 A / 3 A / 6,5 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 2268,
+      "motor": "6 640 W max",
+      "range": "128–130 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 72
+    },
+    "minimotors-dualtron|Thunder 2": {
+      "capacityMah": 40000,
+      "cells": "20S8P · 21700 LG M50LT",
+      "chargeTime": "≈ 28 h (≈ 6 h en charge rapide)",
+      "charger": "1,75 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 2880,
+      "motor": "2 × 2 000 W · 10 080 W max",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 72
+    },
+    "minimotors-dualtron|Victor": {
+      "capacityMah": 30000,
+      "cells": "16S6P · 21700 LG M50LT",
+      "chemistry": "lithiumIon",
+      "energyWh": 1800,
+      "motor": "2 × 2 000 W (4 000 W max)",
+      "notes": [
+        "Version 24 Ah · 1 440 Wh"
+      ],
+      "range": "90–100 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "minimotors-dualtron|X Limited": {
+      "capacityMah": 60000,
+      "cells": "21700 LG M50LT",
+      "chargeTime": "≈ 15 h",
+      "charger": "4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 5040,
+      "motor": "2 × 2 000 W · 13 440 W max",
+      "range": "169 km",
+      "unofficial": [
+        "cells",
+        "chargeTime",
+        "chemistry",
+        "motor",
+        "range"
+      ],
+      "voltage": 84
+    },
+    "navee|GT3": {
+      "capacityMah": 7650,
+      "chargeTime": "8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 358,
+      "motor": "350 W · 700 W max",
+      "range": "50 km (à 15 km/h)",
+      "voltage": 48
+    },
+    "navee|N40": {
+      "capacityMah": 10000,
+      "chargeTime": "8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 360,
+      "motor": "350 W · 600 W max",
+      "range": "40 km (à 15 km/h)",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "navee|N65": {
+      "capacityMah": 12500,
+      "cells": "13S",
+      "chargeTime": "8 h",
+      "energyWh": 600,
+      "motor": "500 W · 900 W max",
+      "range": "65 km",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "navee|N65i": {
+      "chargeTime": "7–8 h",
+      "energyWh": 585,
+      "motor": "600 W · 1 000 W max",
+      "range": "65 km"
+    },
+    "navee|S65": {
+      "batteryRef": "P2301-BD5A",
+      "capacityMah": 12750,
+      "cells": "13S",
+      "chargeTime": "≈ 6,5 h",
+      "charger": "54,6 V max",
+      "energyWh": 596.7,
+      "motor": "500 W",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "navee|V25": {
+      "capacityMah": 5100,
+      "chargeTime": "4,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 184,
+      "motor": "300 W · 600 W max",
+      "range": "25 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "navee|V40": {
+      "capacityMah": 7650,
+      "chargeTime": "4,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 275,
+      "motor": "300 W · 600 W max",
+      "range": "40 km (à 15 km/h)",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "navee|V50": {
+      "capacityMah": 10400,
+      "cells": "10S",
+      "chargeTime": "6,5 h",
+      "energyWh": 374.4,
+      "motor": "350 W · 700 W max",
+      "range": "50 km",
+      "unofficial": [
+        "cells",
+        "chargeTime",
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "navee|XT5 Pro": {
+      "cells": "13S",
+      "chargeTime": "5–6 h (1,25–1,5 h en charge rapide)",
+      "charger": "Charge rapide 10 A",
+      "energyWh": 596.7,
+      "motor": "700 W · 2 200 W max",
+      "range": "75 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "neoline|T25": {
+      "capacityMah": 7800,
+      "chargeTime": "≤ 5 h",
+      "energyWh": 281,
+      "motor": "350 W",
+      "range": "30 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "neoline|T28": {
+      "capacityMah": 13500,
+      "energyWh": 486,
+      "motor": "350 W",
+      "range": "55 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|D18": {
+      "capacityMah": 5100,
+      "chargeTime": "≈ 3,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 184,
+      "motor": "250 W · 500 W max",
+      "range": "18 km",
+      "voltage": 36
+    },
+    "ninebot-classic|D28": {
+      "capacityMah": 7650,
+      "chargeTime": "≈ 5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 275,
+      "motor": "300 W · 500 W max",
+      "range": "28 km",
+      "voltage": 36
+    },
+    "ninebot-classic|D38": {
+      "capacityMah": 10200,
+      "chargeTime": "≈ 6,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 367,
+      "motor": "350 W · 500 W max",
+      "range": "38 km",
+      "voltage": 36
+    },
+    "ninebot-classic|E2": {
+      "capacityMah": 10200,
+      "cells": "6S",
+      "chargeTime": "7,5 h",
+      "charger": "24,2 V · 1,5 A · 36,3 W",
+      "energyWh": 220,
+      "motor": "250 W · 450 W max",
+      "range": "25 km (20 km en usage réel)",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 21.6
+    },
+    "ninebot-classic|E2 Plus": {
+      "chargeTime": "7,5–10,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 220,
+      "motor": "300 W · 500 W max",
+      "unofficial": [
+        "motor"
+      ]
+    },
+    "ninebot-classic|E2 Pro": {
+      "capacityMah": 7650,
+      "chargeTime": "≈ 5–5,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 275,
+      "motor": "350 W · 750 W max",
+      "unofficial": [
+        "motor"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|E22": {
+      "capacityMah": 5100,
+      "cells": "10S2P · 18650",
+      "chargeTime": "3,5 h",
+      "charger": "42 V · 1,7 A · 71 W",
+      "energyWh": 184,
+      "motor": "300 W",
+      "notes": [
+        "Batterie externe : 5 100 mAh · 184 Wh (NEB1002-H1)"
+      ],
+      "range": "22 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|E25": {
+      "capacityMah": 5960,
+      "chargeTime": "3,5 h",
+      "charger": "71 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 215,
+      "motor": "300 W",
+      "notes": [
+        "Batterie externe : 5 960 mAh · 215 Wh (NEB1002-U1)"
+      ],
+      "range": "25 km",
+      "voltage": 36
+    },
+    "ninebot-classic|E3": {
+      "chargeTime": "≈ 5,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 276,
+      "voltage": 36
+    },
+    "ninebot-classic|E3 Pro": {
+      "capacityMah": 10200,
+      "chargeTime": "≈ 7 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 368,
+      "motor": "400 W · 800 W max",
+      "notes": [
+        "Batterie externe optionnelle : 184 Wh"
+      ],
+      "range": "55 km (Eco)",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|E45": {
+      "capacityMah": 10200,
+      "cells": "2 batteries",
+      "chargeTime": "7,5 h",
+      "charger": "42 V · 1,7 A",
+      "energyWh": 368,
+      "motor": "300 W",
+      "range": "45 km",
+      "voltage": 36
+    },
+    "ninebot-classic|ES1": {
+      "capacityMah": 5200,
+      "cells": "10S2P · 18650",
+      "chargeTime": "3,5 h",
+      "charger": "42 V · 1,7 A · 71 W",
+      "energyWh": 187,
+      "motor": "250 W · 500 W max",
+      "range": "25 km",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|ES2": {
+      "cells": "10S2P · 18650",
+      "chargeTime": "3,5 h",
+      "charger": "42 V · 1,7 A",
+      "energyWh": 187,
+      "motor": "300 W · 700 W max",
+      "notes": [
+        "Batterie externe : 5 100 mAh · 184 Wh (NEB1002-H1)"
+      ],
+      "range": "25 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|ES4": {
+      "cells": "2 batteries (interne + externe)",
+      "chargeTime": "7 h",
+      "charger": "42 V · 1,7 A",
+      "energyWh": 374,
+      "motor": "300 W · 800 W max",
+      "range": "45 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F2": {
+      "capacityMah": 10200,
+      "chargeTime": "6,5 h",
+      "charger": "41 V · 1,7 A · 70 W",
+      "energyWh": 367,
+      "motor": "350 W · 700 W max",
+      "range": "40 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F2 Plus": {
+      "chargeTime": "≈ 8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 460,
+      "motor": "400 W · 800 W max",
+      "range": "55 km",
+      "unofficial": [
+        "chargeTime",
+        "motor"
+      ]
+    },
+    "ninebot-classic|F2 Pro": {
+      "capacityMah": 12800,
+      "chargeTime": "≈ 8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 460,
+      "motor": "450 W · 900 W max",
+      "range": "55 km",
+      "unofficial": [
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|F20": {
+      "capacityMah": 5100,
+      "chargeTime": "3,5 h",
+      "energyWh": 183,
+      "motor": "250 W",
+      "range": "20 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F25": {
+      "capacityMah": 5100,
+      "chargeTime": "3,5 h",
+      "charger": "41 V · 1,7 A · 70 W",
+      "energyWh": 183,
+      "motor": "300 W",
+      "range": "20 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F3": {
+      "capacityMah": 10200,
+      "cells": "13S",
+      "chargeTime": "≈ 8 h",
+      "charger": "70 W",
+      "energyWh": 477,
+      "motor": "450 W · 1 000 W max (F3 Pro : 550 W · 1 200 W)",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "ninebot-classic|F3 Pro": {
+      "capacityMah": 10200,
+      "cells": "13S",
+      "chargeTime": "≈ 8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 477,
+      "motor": "550 W · 1 200 W max",
+      "range": "70 km (Eco)",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "energy",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "ninebot-classic|F30": {
+      "capacityMah": 10200,
+      "chargeTime": "≈ 6,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 367,
+      "motor": "300 W · 600 W max",
+      "notes": [
+        "F30D : 7,65 Ah · 275 Wh"
+      ],
+      "range": "30 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F40": {
+      "capacityMah": 10200,
+      "chargeTime": "6,5 h",
+      "charger": "41 V · 1,7 A",
+      "energyWh": 367,
+      "motor": "350 W",
+      "range": "40 km",
+      "voltage": 36
+    },
+    "ninebot-classic|F65": {
+      "capacityMah": 15600,
+      "chargeTime": "≈ 5 h",
+      "charger": "Chargeur intégré ≈ 3 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 561,
+      "motor": "400 W · 700 W max",
+      "notes": [
+        "Batterie intégrée, non amovible *",
+        "Fiche officielle : 561 Wh (tableau) / 551 Wh (texte)"
+      ],
+      "range": "65 km",
+      "unofficial": [
+        "capacity",
+        "charger",
+        "voltage"
+      ],
+      "voltage": 46
+    },
+    "ninebot-classic|G65": {
+      "capacityMah": 15300,
+      "chargeTime": "≈ 5 h",
+      "charger": "Chargeur intégré, 3 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 551,
+      "motor": "450 W · 600 W max",
+      "notes": [
+        "Tension de charge max 42 V"
+      ],
+      "range": "65 km",
+      "unofficial": [
+        "chargeTime",
+        "charger",
+        "range"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|GT1": {
+      "capacityMah": 20000,
+      "cells": "14S",
+      "chargeTime": "≈ 12 h (6 h avec 2 chargeurs)",
+      "charger": "57,8 V · 2 A · 115,6 W",
+      "energyWh": 1008,
+      "motor": "1 400 W · 3 000 W max",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 50.4
+    },
+    "ninebot-classic|GT2": {
+      "capacityMah": 30000,
+      "cells": "14S",
+      "chargeTime": "8 h",
+      "charger": "57,8 V · 2 A · 115,6 W",
+      "energyWh": 1512,
+      "motor": "2 × 1 500 W · 2 × 3 000 W max",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 50.4
+    },
+    "ninebot-classic|GT3": {
+      "capacityMah": 19200,
+      "cells": "13S",
+      "chargeTime": "5,5 h",
+      "charger": "53,6 V · 3,9 A",
+      "energyWh": 899,
+      "motor": "1 200 W · 2 400 W max",
+      "range": "73 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "ninebot-classic|GT3 Pro": {
+      "capacityMah": 30000,
+      "cells": "20S",
+      "chargeTime": "≈ 7,5–8 h",
+      "charger": "4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 2160,
+      "motor": "2 × 3 400 W · 7 000 W max",
+      "range": "138 km (à 25 km/h)",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 72
+    },
+    "ninebot-classic|Max G2": {
+      "capacityMah": 15300,
+      "chargeTime": "≈ 5–6 h",
+      "charger": "42 V · 2,9 A · 121,8 W (intégré)",
+      "energyWh": 551,
+      "motor": "450 W · 1 000 W max (UE : 900 W)",
+      "notes": [
+        "Batterie IPX7"
+      ],
+      "range": "70 km",
+      "voltage": 36
+    },
+    "ninebot-classic|Max G3": {
+      "capacityMah": 12760,
+      "cells": "13S",
+      "chargeTime": "3,5 h (2,5 h avec 2 chargeurs)",
+      "charger": "Chargeur intégré + 2e chargeur DC optionnel",
+      "energyWh": 597,
+      "motor": "850 W · 2 000 W max (UE : 700 W)",
+      "range": "80 km",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "ninebot-classic|Max G30": {
+      "batteryRef": "NEE1006-M",
+      "capacityMah": 15300,
+      "cells": "10S6P · 60 × 18650",
+      "chargeTime": "≈ 6 h",
+      "charger": "42 V · 2,9 A · 121 W (intégré)",
+      "energyWh": 551,
+      "motor": "350 W",
+      "range": "65 km",
+      "unofficial": [
+        "batteryRef",
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|Max G30D": {
+      "capacityMah": 15300,
+      "cells": "10S6P · 60 × 18650",
+      "chargeTime": "≈ 6 h",
+      "charger": "Chargeur intégré 3 A",
+      "energyWh": 551,
+      "motor": "350 W",
+      "range": "65 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "ninebot-classic|Max G30LP": {
+      "capacityMah": 10200,
+      "chargeTime": "≈ 6,5 h",
+      "charger": "71 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 367,
+      "motor": "350 W · 700 W max",
+      "range": "40 km",
+      "voltage": 36
+    },
+    "ninebot-classic|P100S": {
+      "capacityMah": 23000,
+      "cells": "65 × 21700 · 13S5P",
+      "chargeTime": "≈ 7 h",
+      "charger": "53,5 V · 3 A · 160 W",
+      "chemistry": "ternary",
+      "energyWh": 1086,
+      "motor": "650 W",
+      "range": "100 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 47.2
+    },
+    "ninebot-classic|P65": {
+      "batteryRef": "NCAF4813A",
+      "capacityMah": 12000,
+      "cells": "13S",
+      "chargeTime": "≈ 4 h",
+      "charger": "53,5 V · 3 A · 160 W",
+      "energyWh": 561,
+      "motor": "500 W",
+      "range": "65 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "ninebot-classic|ZT3 Pro": {
+      "capacityMah": 12750,
+      "cells": "13S",
+      "chargeTime": "≈ 4 h",
+      "energyWh": 597,
+      "motor": "650 W · 1 600 W max (UE : 500 W)",
+      "range": "70 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 46.8
+    },
+    "niu-kqi|KQi 200F": {
+      "capacityMah": 7800,
+      "chargeTime": "6–7 h",
+      "energyWh": 365,
+      "motor": "350 W · 700 W max",
+      "range": "54 km",
+      "voltage": 48
+    },
+    "niu-kqi|KQi Air": {
+      "capacityMah": 9400,
+      "chargeTime": "5 h",
+      "energyWh": 451.2,
+      "motor": "350 W · 700 W max",
+      "range": "50 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "niu-kqi|KQi2 Pro": {
+      "capacityMah": 7600,
+      "chargeTime": "7 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 365,
+      "motor": "300 W · 600 W max (UE : 250 W)",
+      "range": "40 km",
+      "unofficial": [
+        "capacity"
+      ],
+      "voltage": 48
+    },
+    "niu-kqi|KQi3 Max": {
+      "capacityMah": 13000,
+      "cells": "18650",
+      "chargeTime": "8 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 608.4,
+      "motor": "450 W · 900 W max",
+      "range": "65 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 48
+    },
+    "niu-kqi|KQi3 Pro": {
+      "capacityMah": 10100,
+      "cells": "18650",
+      "chargeTime": "6 h",
+      "charger": "108 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 486,
+      "motor": "350 W · 700 W max",
+      "range": "50 km",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "charger",
+        "motor"
+      ],
+      "voltage": 48
+    },
+    "niu-kqi|KQi3 Sport": {
+      "capacityMah": 7600,
+      "cells": "18650",
+      "chargeTime": "5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 365,
+      "motor": "300 W · 600 W max",
+      "range": "40 km",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 48
+    },
+    "rockrider-e-actv-100-lf|": {
+      "capacityMah": 9800,
+      "chargeTime": "≈ 4 h 30 (chargeur 2 A)",
+      "charger": "2 A fourni (4 A en option, réf. 8753941)",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(garantie 2 ans ou 500 cycles)",
+      "energyWh": 356,
+      "motor": "250 W · 45 Nm (moyeu arrière)",
+      "notes": [
+        "Batterie de rechange : 36 V · 10 Ah · 360 Wh"
+      ],
+      "range": "70 km (Eco) · 50 km (Normal) · 30 km (Boost)",
+      "voltage": 36,
+      "weightKg": 2.3
+    },
+    "shimano-steps|BT-E6000": {
+      "capacityMah": 11600,
+      "chargeTime": "4 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 418,
+      "notes": [
+        "Énergie nominale : 393 Wh"
+      ],
+      "voltage": 36,
+      "weightKg": 2.7
+    },
+    "shimano-steps|BT-E8010": {
+      "capacityMah": 14000,
+      "cells": "10S4P · 40 × 18650 Murata VC7",
+      "chemistry": "lithiumIon",
+      "energyWh": 504,
+      "notes": [
+        "Énergie nominale : 468 Wh"
+      ],
+      "voltage": 36,
+      "weightKg": 2.6
+    },
+    "shimano-steps|BT-E8035": {
+      "capacityMah": 14000,
+      "chemistry": "lithiumIon",
+      "energyWh": 504,
+      "notes": [
+        "Énergie nominale : 468 Wh"
+      ],
+      "voltage": 36,
+      "weightKg": 3
+    },
+    "shimano-steps|BT-E8035-L": {
+      "capacityMah": 14000,
+      "chemistry": "lithiumIon",
+      "energyWh": 504,
+      "notes": [
+        "Énergie nominale : 468 Wh"
+      ],
+      "voltage": 36,
+      "weightKg": 3.1
+    },
+    "shimano-steps|BT-E8036": {
+      "capacityMah": 17500,
+      "cells": "10S5P · 50 × 18650 Murata VC7",
+      "chemistry": "lithiumIon",
+      "energyWh": 630,
+      "notes": [
+        "Énergie nominale : 583 Wh"
+      ],
+      "voltage": 36,
+      "weightKg": 3.6
+    },
+    "soflow-so4|SO4 Pro": {
+      "capacityMah": 10500,
+      "chargeTime": "5 h",
+      "energyWh": 504,
+      "motor": "500 W",
+      "notes": [
+        "Version 7,8 Ah · 374 Wh : 3,5 h de charge"
+      ],
+      "range": "40 km",
+      "unofficial": [
+        "range"
+      ],
+      "voltage": 48
+    },
+    "soflow-so4|SO4 Pro Max": {
+      "capacityMah": 12000,
+      "chargeTime": "6–7 h",
+      "energyWh": 576,
+      "motor": "500 W · 1 300 W max",
+      "range": "75 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "specialized-tcu1|Turbo Levo (2018)": {
+      "batteryRef": "98917-5622 (SBC-B06 / B07 / B08)",
+      "cells": "18650",
+      "chargeTime": "3 h 50 (504 Wh, 4 A)",
+      "charger": "4 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 300,
+      "cycleLifeNote": "(garantie : ≤ 75 % après 300 cycles ou 2 ans)",
+      "energyWh": 504,
+      "motor": "Turbo 1.3 · 90 Nm · ≈ 530 W max",
+      "notes": [
+        "Selon finition : 460 Wh"
+      ],
+      "unofficial": [
+        "cells",
+        "motor"
+      ],
+      "voltage": 36,
+      "weightKg": 2.9
+    },
+    "specialized-tcx|Turbo Como": {
+      "chargeTime": "≈ 5 h (710 Wh) · ≈ 4 h (530 Wh)",
+      "charger": "4 A",
+      "energyWh": 710,
+      "notes": [
+        "Batterie U1-710 (3,9 kg) ou U1-530 : 530 Wh · 3,1 kg"
+      ],
+      "voltage": 36,
+      "weightKg": 3.9
+    },
+    "specialized-tcx|Turbo Creo": {
+      "chargeTime": "2 h 35",
+      "charger": "4 A",
+      "energyWh": 320,
+      "motor": "240 W · 35 Nm",
+      "notes": [
+        "Prolongateur SL1-160 : 160 Wh · ≈ 1 kg"
+      ],
+      "voltage": 48,
+      "weightKg": 1.8
+    },
+    "specialized-tcx|Turbo Kenevo": {
+      "chargeTime": "≈ 5 h (M2-700) · ≈ 3 h 50 (M2-500)",
+      "charger": "4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 700,
+      "motor": "250 W · 565 W max · 90 Nm",
+      "notes": [
+        "Batterie M2-700 (3,6 kg) ou M2-500 : 500 Wh · 2,9 kg",
+        "Cellules Samsung 21700 / 18650, 10S4P *"
+      ],
+      "unofficial": [
+        "motor"
+      ],
+      "voltage": 36,
+      "weightKg": 3.6
+    },
+    "specialized-tcx|Turbo Kenevo SL": {
+      "batteryRef": "SL1-320 (S196800015)",
+      "capacityMah": 6900,
+      "cells": "13S2P · 26 × 18650",
+      "chargeTime": "2 h 35 (4 A)",
+      "charger": "48 V · 4 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 300,
+      "cycleLifeNote": "(garantie : ≤ 75 % après 300 cycles ou 2 ans)",
+      "energyWh": 320,
+      "motor": "SL 1.1 · 240 W · 35 Nm (SL 2 : 320 W · 50 Nm)",
+      "notes": [
+        "Prolongateur SL1-160 : 160 Wh · 46,8 V · ≈ 1 kg · 3 h 20"
+      ],
+      "voltage": 48,
+      "weightKg": 1.8
+    },
+    "specialized-tcx|Turbo Levo": {
+      "chargeTime": "≈ 5 h (M2-700) · ≈ 3 h 50 (M2-500)",
+      "charger": "4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 700,
+      "motor": "250 W · 565 W max · 90 Nm",
+      "notes": [
+        "Batterie M2-700 (3,6 kg) ou M2-500 : 500 Wh · 2,9 kg",
+        "Cellules Samsung 21700 / 18650, 10S4P *"
+      ],
+      "unofficial": [
+        "motor"
+      ],
+      "voltage": 36,
+      "weightKg": 3.6
+    },
+    "specialized-tcx|Turbo Levo SL": {
+      "batteryRef": "SL1-320 (S196800015)",
+      "capacityMah": 6900,
+      "cells": "13S2P · 26 × 18650",
+      "chargeTime": "2 h 35 (4 A)",
+      "charger": "48 V · 4 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 300,
+      "cycleLifeNote": "(garantie : ≤ 75 % après 300 cycles ou 2 ans)",
+      "energyWh": 320,
+      "motor": "SL 1.1 · 240 W · 35 Nm",
+      "notes": [
+        "Prolongateur SL1-160 : 160 Wh · 46,8 V · ≈ 1 kg · 3 h 20"
+      ],
+      "voltage": 48,
+      "weightKg": 1.8
+    },
+    "specialized-tcx|Turbo Vado": {
+      "chargeTime": "≈ 5 h (710 Wh) · ≈ 4 h (530 Wh)",
+      "charger": "4 A",
+      "energyWh": 710,
+      "notes": [
+        "Batterie U1-710 (3,9 kg) ou U1-530 : 530 Wh · 3,1 kg"
+      ],
+      "voltage": 36,
+      "weightKg": 3.9
+    },
+    "specialized-tcx|Turbo Vado SL": {
+      "batteryRef": "SL1-320 (S196800015)",
+      "capacityMah": 6900,
+      "cells": "13S2P · 26 × 18650",
+      "chargeTime": "2 h 35 (4 A)",
+      "charger": "48 V · 4 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 300,
+      "cycleLifeNote": "(garantie : ≤ 75 % après 300 cycles ou 2 ans)",
+      "energyWh": 320,
+      "motor": "SL 1.1 · 240 W · 35 Nm",
+      "notes": [
+        "Prolongateur SL1-160 : 160 Wh · 46,8 V · ≈ 1 kg · 3 h 20"
+      ],
+      "voltage": 48,
+      "weightKg": 1.8
+    },
+    "tenways-kingmeter|AGO T": {
+      "capacityMah": 14000,
+      "cells": "Cellules LG",
+      "chargeTime": "4,5–5 h",
+      "energyWh": 504,
+      "motor": "Bafang M420 · 250 W · 80 Nm",
+      "range": "100 km",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "chargeTime",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "tenways-kingmeter|AGO X": {
+      "capacityMah": 14000,
+      "chargeTime": "6 h",
+      "energyWh": 504,
+      "motor": "Bafang M410 · 250 W · 80 Nm",
+      "range": "100 km",
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "tenways-kingmeter|CGO009": {
+      "capacityMah": 10400,
+      "chemistry": "lithiumIon",
+      "energyWh": 374.4,
+      "motor": "250 W · 45 Nm (moyeu Tenways C9)",
+      "range": "85 km",
+      "voltage": 36
+    },
+    "tenways-kingmeter|CGO600": {
+      "capacityMah": 7000,
+      "energyWh": 252,
+      "motor": "250 W · 40 Nm (Mivice M070)",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "tenways-kingmeter|CGO600 Pro": {
+      "capacityMah": 10000,
+      "cells": "Cellules LG",
+      "chargeTime": "4–5 h",
+      "charger": "42 V · 3 A",
+      "energyWh": 360,
+      "motor": "45 Nm",
+      "range": "100 km (UE)",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "tenways-kingmeter|CGO800S": {
+      "capacityMah": 10400,
+      "chargeTime": "4 h",
+      "energyWh": 374,
+      "motor": "250 W · 40 Nm (UE, Mivice M070)",
+      "notes": [
+        "Version Lavender : 12,8 Ah · 460,8 Wh"
+      ],
+      "range": "100 km",
+      "unofficial": [
+        "chargeTime",
+        "weight"
+      ],
+      "voltage": 36,
+      "weightKg": 2.65
+    },
+    "teverun|Blade GT II": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 26000,
+      "cells": "21700 DMEGC",
+      "chargeTime": "≈ 11 h",
+      "charger": "67,2 V · 1,75 A (LP16)",
+      "chemistry": "lithiumIon",
+      "energyWh": 1560,
+      "motor": "2 × 1 500 W · 5 000 W max",
+      "range": "80 km",
+      "unofficial": [
+        "chargeTime",
+        "range"
+      ],
+      "voltage": 60
+    },
+    "teverun|Blade GT+ II": {
+      "capacityMah": 31500,
+      "cells": "21700 DMEGC",
+      "chargeTime": "≈ 7 h",
+      "charger": "67,2 V · 5 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1890,
+      "motor": "2 × 1 600 W · 5 000 W max",
+      "notes": [
+        "Version 35 Ah LG / Samsung *"
+      ],
+      "range": "100–120 km",
+      "unofficial": [
+        "chargeTime",
+        "charger",
+        "energy",
+        "range"
+      ],
+      "voltage": 60
+    },
+    "teverun|Blade Mini Ultra": {
+      "capacityMah": 27000,
+      "cells": "16S · 21700 DMEGC",
+      "charger": "67,2 V · 1,75 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1620,
+      "motor": "2 × 1 000 W · 3 360 W max",
+      "range": "80 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 60
+    },
+    "teverun|Blade X Pro": {
+      "capacityMah": 28800,
+      "cells": "16S · LG",
+      "energyWh": 1728,
+      "motor": "2 × 1 200 W",
+      "notes": [
+        "Version 23,4 Ah · 1 404 Wh"
+      ],
+      "range": "50–100 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "teverun|Fighter 11": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 26000,
+      "cells": "16S · 21700 DMEGC",
+      "charger": "67,2 V · 1,75 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1560,
+      "motor": "2 × 1 600 W · 5 000 W max",
+      "range": "80 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 60
+    },
+    "teverun|Fighter Eleven+": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 37100,
+      "cells": "16S · 21700 Samsung",
+      "charger": "67,2 V · 6 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 2226,
+      "motor": "2 × 1 600 W · 5 000 W max",
+      "range": "120 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 60
+    },
+    "teverun|Fighter Mini": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 30000,
+      "cells": "21700",
+      "chemistry": "lithiumIon",
+      "energyWh": 1560,
+      "motor": "2 × 1 000 W · 2 950 W max",
+      "notes": [
+        "Version ECO : 15,6 Ah Samsung 18650 *"
+      ],
+      "range": "90 km",
+      "voltage": 52
+    },
+    "teverun|Fighter Mini Pro": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 24500,
+      "cells": "16S · 21700 Samsung",
+      "charger": "58,8 V · 5 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1470,
+      "motor": "2 × 1 000 W · 3 360 W max",
+      "range": "90 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 60
+    },
+    "teverun|Fighter Supreme Ultra": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 60000,
+      "cells": "20S · 18650 SK",
+      "charger": "84 V · 6 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 4320,
+      "motor": "2 × 1 600 W · 8 000 W max",
+      "range": "200 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 72
+    },
+    "teverun|Tetra": {
+      "capacityMah": 60000,
+      "chargeTime": "≈ 12 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 3600,
+      "motor": "4 × 1 500 W (9 946 W max)",
+      "range": "200 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 60
+    },
+    "tsdz2-esp32|": {
+      "motor": "250 W (option 350 W) · 80 Nm · 675–870 W max",
+      "notes": [
+        "Moteur pédalier 36 / 48 V : la batterie dépend du montage",
+        "Protection batterie ≈ 22 A *"
+      ],
+      "unofficial": [
+        "motor"
+      ]
+    },
+    "vanmoof-s5|": {
+      "cells": "26 cellules",
+      "chargeTime": "6 h 30 (50 % en 2 h 30)",
+      "charger": "48 V · 2 A",
+      "energyWh": 487,
+      "motor": "250 W · 68 Nm, moyeu avant",
+      "notes": [
+        "A5 : 463 Wh",
+        "Batterie intégrée, non amovible"
+      ],
+      "range": "60–150 km",
+      "unofficial": [
+        "cells",
+        "charger",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 47
+    },
+    "vanmoof-sx3|S3": {
+      "capacityMah": 12600,
+      "cells": "10S4P · 18650 (DynaPack, cellules LG)",
+      "chargeTime": "4 h (50 % en 80 min)",
+      "charger": "36 V · 4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 504,
+      "motor": "250 W (250–350 W) · 59 Nm, moyeu avant",
+      "notes": [
+        "PowerBank optionnelle : 378 Wh"
+      ],
+      "range": "60–150 km",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "vanmoof-sx3|X3": {
+      "capacityMah": 12600,
+      "cells": "10S4P · 18650 (DynaPack, cellules LG)",
+      "chargeTime": "4 h (50 % en 80 min)",
+      "charger": "36 V · 4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 504,
+      "motor": "250 W (250–350 W) · 59 Nm, moyeu avant",
+      "notes": [
+        "PowerBank optionnelle : 378 Wh"
+      ],
+      "range": "60–150 km",
+      "unofficial": [
+        "capacity",
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "velotric|Discover 2": {
+      "capacityMah": 14700,
+      "cells": "Cellules Samsung / LG",
+      "chargeTime": "≈ 5 h",
+      "charger": "3 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 705.6,
+      "motor": "750 W · 1 100 W max · 75 Nm",
+      "notes": [
+        "Certifiée UL 2271"
+      ],
+      "range": "120 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "velotric|Nomad 2": {
+      "capacityMah": 14700,
+      "chargeTime": "≈ 5 h",
+      "charger": "48 V · 3 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 705.6,
+      "motor": "750 W · 90 Nm",
+      "notes": [
+        "IPX7"
+      ],
+      "range": "105 km",
+      "unofficial": [
+        "chargeTime"
+      ],
+      "voltage": 48
+    },
+    "velotric|Summit 1": {
+      "capacityMah": 14700,
+      "chemistry": "lithiumIon",
+      "energyWh": 705.6,
+      "motor": "750 W · 90 Nm",
+      "notes": [
+        "IPX7"
+      ],
+      "range": "113 km",
+      "unofficial": [
+        "capacity",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "velotric|Tempo": {
+      "capacityMah": 10140,
+      "chargeTime": "≈ 5,5 h",
+      "charger": "36 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 374,
+      "motor": "350 W · 650 W max · 45 Nm",
+      "range": "97 km (assistance minimale)",
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "charger",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "vmax-gpst|VX2": {
+      "capacityMah": 13000,
+      "energyWh": 642,
+      "motor": "500 W",
+      "notes": [
+        "Option 18,2 Ah · 874 Wh"
+      ],
+      "range": "70 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "vmax-gpst|VX4 GT": {
+      "capacityMah": 23200,
+      "chargeTime": "12 h",
+      "energyWh": 1113,
+      "range": "100 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "vmax-gpst|VX4 ST": {
+      "capacityMah": 18200,
+      "chargeTime": "9 h",
+      "energyWh": 874,
+      "range": "74 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "vmax-gpst|VX8": {
+      "capacityMah": 9000,
+      "chargeTime": "≈ 3 h",
+      "charger": "jusqu'à 4,5 A",
+      "energyWh": 430,
+      "motor": "1 400 W max",
+      "range": "45 km",
+      "unofficial": [
+        "capacity",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "xiaomi-4-pro-2|4 Pro (2e gén.)": {
+      "batteryRef": "T2336-BD4A",
+      "capacityMah": 10000,
+      "cells": "13S",
+      "chargeTime": "≈ 9 h",
+      "charger": "54,6 V max · 70 W",
+      "chemistry": "ternary",
+      "energyWh": 468,
+      "motor": "400 W · 1 000 W max",
+      "range": "60 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "xiaomi-4-pro-2|5": {
+      "batteryRef": "T2336-BD4A",
+      "capacityMah": 10200,
+      "cells": "13S",
+      "chargeTime": "≈ 9 h",
+      "charger": "54,6 V max · 70 W",
+      "chemistry": "ternary",
+      "energyWh": 477,
+      "motor": "350 W · 700 W max",
+      "range": "60 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "xiaomi-4-pro-2|5 Max": {
+      "batteryRef": "T2336-BD4A",
+      "capacityMah": 10200,
+      "cells": "13S",
+      "chargeTime": "≈ 8 h 46 (3 h 08 avec le chargeur rapide)",
+      "charger": "54,6 V max · 70 W",
+      "chemistry": "ternary",
+      "energyWh": 477,
+      "motor": "400 W · 1 000 W max",
+      "range": "60 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "xiaomi-4-pro-2|5 Pro": {
+      "batteryRef": "T2336-BD4A",
+      "capacityMah": 10200,
+      "cells": "13S",
+      "chargeTime": "≈ 9 h",
+      "charger": "54,6 V max · 70 W",
+      "chemistry": "ternary",
+      "energyWh": 477,
+      "motor": "400 W · 1 000 W max",
+      "range": "60 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "xiaomi-brightway|3 Lite": {
+      "capacityMah": 5200,
+      "cells": "10S",
+      "chargeTime": "4,5 h",
+      "charger": "53,3 W",
+      "energyWh": 187,
+      "motor": "300 W",
+      "range": "20 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "xiaomi-brightway|4": {
+      "batteryRef": "T2201-BA3A",
+      "capacityMah": 7650,
+      "cells": "10S",
+      "chargeTime": "≈ 5 h",
+      "charger": "42 V · 1,7 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 275.4,
+      "motor": "300 W · 600 W max",
+      "range": "35 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "xiaomi-brightway|4 Lite": {
+      "batteryRef": "P2185-BA2A",
+      "capacityMah": 5200,
+      "cells": "10S",
+      "chargeTime": "4,5 h",
+      "energyWh": 187,
+      "motor": "300 W · 600 W max",
+      "notes": [
+        "4 Lite (2e gén.) : 221 Wh, batterie C1387A1, 25 km"
+      ],
+      "range": "20 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "xiaomi-brightway|4 Ultra": {
+      "batteryRef": "P2301-BD5A",
+      "capacityMah": 12000,
+      "cells": "13S",
+      "chargeTime": "6,5 h",
+      "charger": "54,6 V · 124 W",
+      "energyWh": 561.5,
+      "motor": "500 W · 940 W max",
+      "range": "70 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 46.8
+    },
+    "xiaomi-m365|1S": {
+      "batteryPower": "500 W max",
+      "batteryRef": "NE1003-H",
+      "capacityMah": 7650,
+      "cells": "10S3P · 30 × 18650",
+      "chargeTime": "5,5 h",
+      "charger": "42 V · 1,7 A",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(≥ 70 % de capacité)",
+      "energyWh": 275,
+      "motor": "250 W · 500 W max",
+      "range": "30 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36,
+      "weightKg": 1.6
+    },
+    "xiaomi-m365|3": {
+      "batteryRef": "NE1003-H",
+      "capacityMah": 7650,
+      "chargeTime": "5,5 h",
+      "charger": "42 V · 71 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 275,
+      "motor": "300 W · 600 W max",
+      "range": "30 km",
+      "voltage": 36,
+      "weightKg": 1.6
+    },
+    "xiaomi-m365|4 Go": {
+      "batteryRef": "NEEF2208A",
+      "chargeTime": "≈ 6 h",
+      "energyWh": 165,
+      "motor": "250 W · 450 W max",
+      "range": "18 km"
+    },
+    "xiaomi-m365|4 Pro": {
+      "batteryRef": "BCTA+71420-1701",
+      "capacityMah": 12400,
+      "cells": "10S",
+      "chargeTime": "8–9 h",
+      "charger": "42 V · 1,7 A · 70 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 446,
+      "motor": "350 W · 700 W max",
+      "range": "55 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "xiaomi-m365|Essential": {
+      "batteryRef": "NE1002-H",
+      "capacityMah": 5100,
+      "chargeTime": "3,5 h",
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(≥ 70 % de capacité)",
+      "energyWh": 183,
+      "motor": "250 W · 500 W max",
+      "range": "20 km",
+      "unofficial": [
+        "voltage"
+      ],
+      "voltage": 36,
+      "weightKg": 1.1
+    },
+    "xiaomi-m365|M365": {
+      "batteryPower": "500 W max (instantané)",
+      "capacityMah": 7800,
+      "cells": "10S3P · 30 × 18650 LG M26",
+      "chargeTime": "≈ 5 h",
+      "charger": "42 V · 71 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 280.8,
+      "range": "30 km",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "energy",
+        "voltage"
+      ],
+      "voltage": 36
+    },
+    "xiaomi-m365|M365 Pro": {
+      "batteryRef": "NED1004-K",
+      "capacityMah": 12800,
+      "cells": "10S4P · 40 × 18650",
+      "chargeTime": "8–9 h",
+      "charger": "42 V · 70 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 474,
+      "motor": "300 W · 600 W max",
+      "range": "45 km",
+      "unofficial": [
+        "cells",
+        "range"
+      ],
+      "voltage": 37,
+      "weightKg": 3
+    },
+    "xiaomi-m365|Pro 2": {
+      "capacityMah": 12400,
+      "cells": "10S4P · 40 × 18650",
+      "chargeTime": "8–9 h",
+      "charger": "42 V · 70 W",
+      "chemistry": "lithiumIon",
+      "energyWh": 446,
+      "motor": "300 W · 600 W max",
+      "notes": [
+        "Étiquette batterie NED1004-K : 12,8 Ah · 474 Wh *"
+      ],
+      "range": "45 km",
+      "unofficial": [
+        "cells",
+        "voltage"
+      ],
+      "voltage": 37,
+      "weightKg": 3
+    },
+    "yamaha-pw|Batterie 500": {
+      "batteryRef": "PASB6",
+      "capacityMah": 13400,
+      "chargeTime": "≈ 4 h",
+      "charger": "PASC9 / PASC11",
+      "chemistry": "lithiumIon",
+      "energyWh": 500,
+      "notes": [
+        "Moteurs : PW-X3 (85 Nm), PW-S2 (75 Nm)"
+      ],
+      "voltage": 36,
+      "weightKg": 3
+    },
+    "yamaha-pw|Batterie 600 InTube": {
+      "chargeTime": "≈ 3,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 600,
+      "unofficial": [
+        "chargeTime",
+        "energy",
+        "weight"
+      ],
+      "voltage": 36,
+      "weightKg": 3.8
+    },
+    "yamaha-pw|Batterie 625": {
+      "batteryRef": "PASB6",
+      "capacityMah": 16700,
+      "chargeTime": "≈ 4,5 h",
+      "charger": "PASC11",
+      "chemistry": "lithiumIon",
+      "energyWh": 625,
+      "voltage": 36,
+      "weightKg": 3.8
+    },
+    "yamaha-pw|Batterie 630 InTube": {
+      "capacityMah": 17000,
+      "chargeTime": "≈ 5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 630,
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "yamaha-pw|PW-LINK 560": {
+      "capacityMah": 12000,
+      "chargeTime": "≈ 4,5 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 562,
+      "voltage": 46.8,
+      "weightKg": 3.1
+    },
+    "yamaha-pw|PW-LINK 840": {
+      "capacityMah": 18000,
+      "chargeTime": "≈ 6 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 842,
+      "voltage": 46.8,
+      "weightKg": 4.35
+    },
+    "zydtech-hobbywing|Apollo City": {
+      "capacityMah": 20000,
+      "cells": "21700",
+      "charger": "3 A",
+      "energyWh": 960,
+      "motor": "2 × 500 W · 2 × 1 000 W max",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "charger",
+        "energy",
+        "voltage"
+      ],
+      "voltage": 48
+    },
+    "zydtech-hobbywing|Apollo Go": {
+      "capacityMah": 15000,
+      "cells": "10S · EVE 21700",
+      "chargeTime": "≈ 7,5 h",
+      "charger": "42 V · 2 A",
+      "energyWh": 540,
+      "motor": "2 × 750 W max",
+      "range": "58 km",
+      "unofficial": [
+        "cells"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|Apollo Phantom": {
+      "capacityMah": 23400,
+      "cells": "14S9P · 126 × 18650",
+      "chargeTime": "≈ 12 h (1 chargeur)",
+      "charger": "58,8 V · 2 A (2 prises)",
+      "energyWh": 1217,
+      "motor": "2 × 1 200 W · 3 200 W max",
+      "unofficial": [
+        "capacity",
+        "cells",
+        "chargeTime",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 52
+    },
+    "zydtech-hobbywing|Apollo Phantom 2.0": {
+      "capacityMah": 27000,
+      "cells": "84 × 21700",
+      "charger": "58,8 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1404,
+      "motor": "2 × 1 560 W · 3 500 W max",
+      "notes": [
+        "Version Stellar 60 V : chargeur 67,2 V · 3 A"
+      ],
+      "range": "48–80 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 52
+    },
+    "zydtech-hobbywing|Apollo Pro": {
+      "capacityMah": 30000,
+      "cells": "84 × 21700 Samsung",
+      "chargeTime": "≈ 6 h",
+      "charger": "58,8 V · 4 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1560,
+      "motor": "2 × 1 200 W · 2 × 3 000 W max",
+      "range": "100 km (Eco)",
+      "voltage": 52
+    },
+    "zydtech-hobbywing|Hiboy KS4 Pro": {
+      "capacityMah": 11600,
+      "chargeTime": "4–6 h",
+      "charger": "42 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 418,
+      "motor": "500 W · 750 W max",
+      "range": "40 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|Hiboy S2": {
+      "capacityMah": 7500,
+      "chargeTime": "3–5 h",
+      "energyWh": 270,
+      "motor": "350 W · 500 W max",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|Hiboy S2 Lite": {
+      "capacityMah": 5000,
+      "chargeTime": "≈ 6 h",
+      "charger": "42 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 180,
+      "motor": "250 W · 400 W max",
+      "range": "17 km",
+      "unofficial": [
+        "chargeTime",
+        "charger",
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|Hiboy S2 Max": {
+      "capacityMah": 11600,
+      "chargeTime": "6–7 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 556.8,
+      "motor": "500 W · 650 W max",
+      "range": "64 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 48
+    },
+    "zydtech-hobbywing|Hiboy S2 Pro": {
+      "capacityMah": 11600,
+      "chargeTime": "4–6 h",
+      "energyWh": 417.6,
+      "motor": "500 W · 600 W max",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|Hiboy S2R": {
+      "capacityMah": 7500,
+      "chargeTime": "4–6 h",
+      "energyWh": 270,
+      "motor": "350 W",
+      "range": "27 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 36
+    },
+    "zydtech-hobbywing|PURE Advance": {
+      "capacityMah": 9600,
+      "chargeTime": "6 h",
+      "energyWh": 351.5,
+      "motor": "500 W · 710 W max",
+      "range": "40 km",
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "energy",
+        "motor",
+        "voltage"
+      ],
+      "voltage": 37
+    },
+    "zydtech-hobbywing|PURE Advance+": {
+      "chargeTime": "6 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 432,
+      "motor": "500 W · 924 W max",
+      "range": "50 km",
+      "unofficial": [
+        "chargeTime",
+        "energy",
+        "range"
+      ]
+    },
+    "zydtech-hobbywing|PURE Air": {
+      "capacityMah": 7200,
+      "chargeTime": "4 h",
+      "energyWh": 266,
+      "motor": "550 W max",
+      "range": "30 km",
+      "unofficial": [
+        "energy"
+      ],
+      "voltage": 37
+    },
+    "zydtech-hobbywing|PURE Air Pro": {
+      "capacityMah": 9600,
+      "chargeTime": "6 h",
+      "energyWh": 355,
+      "motor": "710 W max",
+      "range": "40 km",
+      "unofficial": [
+        "chargeTime",
+        "energy"
+      ],
+      "voltage": 37
+    },
+    "zydtech-hobbywing|PURE Air3 Pro+": {
+      "capacityMah": 12000,
+      "chargeTime": "7,25 h",
+      "chemistry": "lithiumIon",
+      "energyWh": 432,
+      "motor": "500 W · 710 W max",
+      "range": "50 km",
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "energy",
+        "voltage"
+      ],
+      "voltage": 36
+    }
+  },
+  "updated": "2026-11-22",
+  "variants": {
+    "aike": [
+      "Äike T",
+      "Äike 11"
+    ],
+    "ampler": [
+      "Stout",
+      "Curt",
+      "Axel",
+      "Nova"
+    ],
+    "aovo-lenzod": [
+      "AOVO Pro (ES80)",
+      "Joyor S5",
+      "Joyor Y8S",
+      "Joyor Y10"
+    ],
+    "bafang-b06": [
+      "BBS02B 750 W",
+      "M500",
+      "M510",
+      "M600"
+    ],
+    "bosch-smart-system": [
+      "PowerTube 500",
+      "PowerTube 625",
+      "PowerTube 750",
+      "PowerTube 800",
+      "PowerPack 400 Frame",
+      "PowerPack 545 Frame",
+      "PowerPack 800 Frame",
+      "PowerPack 400 Rack",
+      "PowerPack 500 Rack",
+      "CompactTube 400",
+      "PowerTube 600",
+      "PowerPack 725 Frame",
+      "PowerMore 250"
+    ],
+    "brose-allride": [
+      "Batterie 630"
+    ],
+    "comodule": [
+      "Super73 S-Adventure",
+      "Super73 R-Series",
+      "Super73 Z-Adventure Core",
+      "Super73 Z-Adventure SE",
+      "Veloretti Ivy Two / Ace Two",
+      "MATE X",
+      "MATE City"
+    ],
+    "cowboy": [
+      "Cowboy 2",
+      "Cowboy 3",
+      "Cowboy 4"
+    ],
+    "egret": [
+      "X Prime",
+      "X Ultra",
+      "Pro",
+      "One",
+      "GT",
+      "X+"
+    ],
+    "fiido": [
+      "C11 Pro",
+      "M1 Pro 2025",
+      "D3 Pro"
+    ],
+    "giant-ridecontrol": [
+      "EnergyPak Smart 500",
+      "EnergyPak Smart 625",
+      "EnergyPak Smart 800"
+    ],
+    "inokim": [
+      "Light 2",
+      "Quick 4",
+      "OX",
+      "OXO",
+      "Light 2 Super",
+      "Quick 3",
+      "Quick 3 Super+",
+      "Mini 2"
+    ],
+    "iscooter-kcq": [
+      "i9",
+      "i10",
+      "i9 Max",
+      "i9 Pro",
+      "iX4",
+      "iX5"
+    ],
+    "kukirin": [
+      "G2 Pro",
+      "G3",
+      "G4",
+      "G4 Max",
+      "Kugoo Kirin M4 Pro",
+      "Kugoo Kirin S1 Pro",
+      "Kugoo Kirin V1",
+      "Kugoo Kirin C1 Pro",
+      "G2 Max",
+      "A1",
+      "C1 Pro",
+      "Kugoo Kirin G2 Pro",
+      "Kugoo Kirin M4"
+    ],
+    "mahle-smartbike": [
+      "X20",
+      "X35+ / ebikemotion"
+    ],
+    "minimotors-dualtron": [
+      "Thunder 2",
+      "Storm",
+      "Victor",
+      "Mini",
+      "Popular",
+      "Achilleus",
+      "X Limited"
+    ],
+    "navee": [
+      "N65",
+      "N65i",
+      "S65",
+      "V50",
+      "XT5 Pro",
+      "GT3",
+      "N40",
+      "V40",
+      "V25"
+    ],
+    "neoline": [
+      "T25",
+      "T28"
+    ],
+    "ninebot-classic": [
+      "Max G30",
+      "Max G30D",
+      "ES1",
+      "ES2",
+      "ES4",
+      "E22",
+      "E25",
+      "E45",
+      "F20",
+      "F25",
+      "F40",
+      "Max G2",
+      "Max G3",
+      "F2",
+      "F3",
+      "E2",
+      "Max G30LP",
+      "F30",
+      "E2 Plus",
+      "E2 Pro",
+      "E3",
+      "E3 Pro",
+      "F2 Plus",
+      "F2 Pro",
+      "F3 Pro",
+      "ZT3 Pro",
+      "GT1",
+      "GT2",
+      "GT3",
+      "GT3 Pro",
+      "P65",
+      "P100S",
+      "F65",
+      "G65",
+      "D18",
+      "D28",
+      "D38"
+    ],
+    "niu-kqi": [
+      "KQi Air",
+      "KQi 200F",
+      "KQi2 Pro",
+      "KQi3 Sport",
+      "KQi3 Pro",
+      "KQi3 Max"
+    ],
+    "shimano-steps": [
+      "BT-E6000",
+      "BT-E8010",
+      "BT-E8035",
+      "BT-E8035-L",
+      "BT-E8036"
+    ],
+    "soflow-so4": [
+      "SO4 Pro",
+      "SO4 Pro Max"
+    ],
+    "specialized-tcu1": [
+      "Turbo Levo (2018)"
+    ],
+    "specialized-tcx": [
+      "Turbo Levo",
+      "Turbo Kenevo",
+      "Turbo Vado",
+      "Turbo Como",
+      "Turbo Creo",
+      "Turbo Levo SL",
+      "Turbo Vado SL",
+      "Turbo Kenevo SL"
+    ],
+    "tenways-kingmeter": [
+      "CGO600",
+      "CGO600 Pro",
+      "CGO800S",
+      "CGO009",
+      "AGO X",
+      "AGO T"
+    ],
+    "teverun": [
+      "Fighter 11",
+      "Fighter Eleven+",
+      "Fighter Mini Pro",
+      "Blade Mini Ultra",
+      "Blade X Pro",
+      "Fighter Supreme Ultra",
+      "Fighter Mini",
+      "Blade GT II",
+      "Blade GT+ II",
+      "Tetra"
+    ],
+    "vanmoof-sx3": [
+      "S3",
+      "X3"
+    ],
+    "velotric": [
+      "Discover 2",
+      "Nomad 2",
+      "Tempo",
+      "Summit 1"
+    ],
+    "vmax-gpst": [
+      "VX2",
+      "VX4 ST",
+      "VX4 GT",
+      "VX8"
+    ],
+    "xiaomi-4-pro-2": [
+      "4 Pro (2e gén.)",
+      "5",
+      "5 Pro",
+      "5 Max"
+    ],
+    "xiaomi-brightway": [
+      "3 Lite",
+      "4",
+      "4 Lite",
+      "4 Ultra"
+    ],
+    "xiaomi-m365": [
+      "M365",
+      "M365 Pro",
+      "1S",
+      "Essential",
+      "Pro 2",
+      "3",
+      "4 Pro",
+      "4 Go"
+    ],
+    "yamaha-pw": [
+      "Batterie 500",
+      "Batterie 625",
+      "Batterie 600 InTube",
+      "Batterie 630 InTube",
+      "PW-LINK 560",
+      "PW-LINK 840"
+    ],
+    "zydtech-hobbywing": [
+      "Hiboy S2",
+      "Hiboy S2 Pro",
+      "Hiboy S2R",
+      "PURE Air",
+      "PURE Air Pro",
+      "PURE Advance",
+      "Apollo Phantom",
+      "Apollo City",
+      "Apollo Go",
+      "Hiboy S2 Lite",
+      "Hiboy S2 Max",
+      "Hiboy KS4 Pro",
+      "PURE Air3 Pro+",
+      "PURE Advance+",
+      "Apollo Phantom 2.0",
+      "Apollo Pro"
+    ]
+  },
+  "version": 2
+}
