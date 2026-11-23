@@ -1,14 +1,31 @@
 {
+  "appSupport": {
+    "pinion-mgu": {
+      "labMinBuild": 2,
+      "minBuild": 2
+    },
+    "specialized-tcx1": {
+      "labMinBuild": 2,
+      "minBuild": 2
+    },
+    "tianpower-bms": {
+      "labMinBuild": 2,
+      "minBuild": 2
+    }
+  },
   "firmware": {},
+  "namePrefixes": {
+    "ninebot-classic": [
+      "NAGV"
+    ]
+  },
   "recalls": [
     {
       "contact": "ridercare@specialized.com · +1 877-808-8154",
       "date": "2026-03-19",
       "hazard": "Le pivot de la fourche peut développer une petite fissure de fatigue pouvant mener à la rupture progressive de la fourche : risque de chute. Une rupture signalée, sans blessé. Environ 5 720 vélos aux États-Unis.",
       "id": "specialized-como-sl-fourche-2026",
-      "identify": "Tous les Turbo Como SL 4.0 et 5.0 vendus depuis 2021, transmission courroie ou chaîne, toutes couleurs et tailles (deux tubes diagonaux parallèles, marquage « Como SL » sur le tube supérieur ou de selle). Numéro de série commençant par « WSBC » (14 caractères), sur l'étiquette sous le tube supérieur. Les Como sans « SL » ne sont pas concernés.",
-      "producedFrom": "2021-03",
-      "producedTo": "2026-01",
+      "identify": "Tous les Turbo Como SL 4.0 et 5.0, toutes années-modèles, transmission courroie ou chaîne, toutes couleurs et tailles (deux tubes diagonaux parallèles, marquage « Como SL » sur le tube supérieur ou de selle). Vendus depuis 2021. Numéro de série commençant par « WSBC » (14 caractères), sur l'étiquette sous le tube supérieur. Les Como sans « SL » ne sont pas concernés.",
       "regions": [
         "États-Unis",
         "Royaume-Uni",
@@ -60,8 +77,6 @@
       "hazard": "La soudure de la potence peut se fissurer et la potence casser : risque de chute. 10 fissures signalées, dont 4 chutes et 1 blessé. Environ 790 trottinettes.",
       "id": "apollo-city-2024-soudure-potence-2025",
       "identify": "Apollo City année-modèle 2024 (grise, bimoteur), vendue de juin 2024 à avril 2025. Numéro de série sous le plateau ou dans l'application Apollo : de 4202240300001 à 4202240301236 et de 4202240400001 à 4202240400764.",
-      "producedFrom": "2024-06",
-      "producedTo": "2025-04",
       "regions": [
         "États-Unis"
       ],
@@ -85,8 +100,7 @@
       "hazard": "Des fissures de fatigue peuvent apparaître à la jonction entre le tube de direction et le tube diagonal, après environ 2 500 km : rupture du cadre et risque de chute.",
       "id": "cowboy-c4-st-cadre-2025",
       "identify": "Cowboy C4 ST (cadre ouvert) vendus d'octobre 2023 à juillet 2025. Dans l'application Cowboy : Réglages > Avancé affiche le numéro de série et le fabricant du cadre ; « Edition MR » = concerné. Les Cowboy 1+, 2, 3 et Cruiser ne sont pas concernés.",
-      "producedFrom": "2023-10",
-      "producedTo": "2025-07",
+      "manualCheck": "Vérifiez que le cadre porte bien la désignation « Edition MR » dans l'application Cowboy ; cette édition n'est pas lue automatiquement.",
       "regions": [
         "Royaume-Uni",
         "France",
@@ -111,6 +125,7 @@
       "hazard": "Le carter ne couvre pas entièrement la transmission : un vêtement ample peut se coincer dans la courroie ou la chaîne et provoquer une chute. Aucun blessé signalé. Environ 32 400 vélos aux États-Unis et 3 200 au Canada.",
       "id": "specialized-como-vado-igh-carter-2025",
       "identify": "Uniquement les vélos à moyeu à vitesses intégrées (Enviolo ou Shimano, sans dérailleur arrière) vendus de 2021 à 2024 : Como 3.0 / 4.0 / 5.0 IGH, Como SL 4.0 / 5.0, Vado 3.0 / 4.0 / 5.0 IGH (y compris Step-Through) et Vado S IGH. Le nom du modèle figure sur l'étiquette du numéro de série sous le tube supérieur ; l'application Specialized affiche aussi une alerte.",
+      "manualCheck": "Vérifiez le millésime et que le vélo a un moyeu à vitesses intégrées sans dérailleur arrière ; ces critères ne sont pas lus automatiquement.",
       "regions": [
         "États-Unis",
         "Canada",
@@ -138,8 +153,6 @@
       "hazard": "Le mécanisme de pliage peut céder et la potence ou le guidon se replier pendant la conduite : risque de chute. 68 défaillances signalées, dont 20 blessés (écorchures, contusions, lacérations, fractures). Environ 220 000 trottinettes concernées aux États-Unis.",
       "id": "segway-max-g30p-g30lp-2025",
       "identify": "Concerne les Max G30P (noire, accents jaunes) et Max G30LP (grise, accents jaunes), années-modèles 2020 à 2024, vendues de janvier 2020 à février 2025. Le nom « ninebot » figure sur le plateau et en haut du guidon ; le numéro de modèle est sur l'étiquette sur le côté du plateau.",
-      "producedFrom": "2020-01",
-      "producedTo": "2025-02",
       "regions": [
         "États-Unis",
         "Canada"
@@ -164,8 +177,7 @@
       "hazard": "La goupille de retenue des étriers de frein à disque peut se desserrer et sortir, entraînant une perte de freinage : risque d'accident. 21 signalements, dont 1 blessé léger. Environ 1 400 vélos.",
       "id": "super73-z-miami-z-adventure-2025",
       "identify": "Année-modèle 2024 : Z Miami SE (réf. 900-00288, 900-00309, 900-00313 ; noir Bandit, gris Palladium ou orange Astro) et Z Adventure Core (réf. 900-00308, Sandstorm), vendus d'avril à septembre 2024. Le modèle et la couleur figurent sur la facture.",
-      "producedFrom": "2024-04",
-      "producedTo": "2024-09",
+      "manualCheck": "Vérifiez l'année-modèle 2024 et les références 900-00288, 900-00309, 900-00313 ou 900-00308 sur la facture ; ces informations ne sont pas lues automatiquement.",
       "regions": [
         "États-Unis"
       ],
@@ -189,8 +201,6 @@
       "hazard": "La fourche avant peut casser : risque de chute et de blessure. 31 fourches cassées signalées, dont 6 blessés (fracture, coupures, contusions). Environ 1 400 trottinettes concernées.",
       "id": "segway-p100s-2024",
       "identify": "Modèle P100S (P100SU au Canada), noir et gris à accents rouges, fabriqué en 2023 et vendu d'octobre 2022 à juin 2024. Dans le numéro de série (côté gauche), les chiffres 6-7 donnent l'année et 8-9 la semaine : concerné si le code vaut 2308 ou plus (au Canada : codes 2308, 2310 et 2311).",
-      "producedFrom": "2023-01",
-      "producedTo": "2023-12",
       "regions": [
         "États-Unis",
         "Canada"
@@ -215,6 +225,7 @@
       "hazard": "L'adaptateur de voyage fourni pour le chargeur n'est pas conforme (fiche, absence de fusible, parties sous tension accessibles) : risque d'électrocution.",
       "id": "fiido-t1-pro-adaptateur-2024",
       "identify": "Adaptateur de voyage noir à trois broches « WN-07 » livré avec le chargeur (fiche non britannique) du Fiido T1 Pro Cargo. Le vélo lui-même n'est pas concerné.",
+      "manualCheck": "Vérifiez si l'adaptateur fourni est le modèle WN-07 ; le vélo seul n'est pas concerné et l'adaptateur n'est pas lu par l'application.",
       "regions": [
         "Royaume-Uni"
       ],
@@ -236,8 +247,7 @@
       "hazard": "Construction non conforme : risque de blessure ou de chute en déplacement et risque de choc électrique.",
       "id": "dualtron-mini-special-2024",
       "identify": "Dualtron Mini Special 52V 13Ah (EAN 3701122102647) vendue du 22 septembre au 31 décembre 2023, notamment chez Boulanger, Fnac et Darty. Numéro de série gravé sous la trottinette et reporté sur l'emballage.",
-      "producedFrom": "2023-09",
-      "producedTo": "2023-12",
+      "manualCheck": "Vérifiez l'EAN 3701122102647 ou le numéro de série dans l'avis officiel ; ces critères ne sont pas lus automatiquement.",
       "regions": [
         "France"
       ],
@@ -259,8 +269,7 @@
       "hazard": "Le levier qui libère et plie le guidon peut se replier pendant la conduite : risque d'accident et de blessure.",
       "id": "pure-advance-flex-pliage-2023",
       "identify": "Pure Advance, Advance+ et Advance Flex vendues du 1er mars au 10 octobre 2023 (réf. SCPUR0020-00001, SCPUR0020-00002, SCPUR0021-00001, SCPUR0022-00001 ; coloris noir, gris clair, gris métallisé, platine).",
-      "producedFrom": "2023-03",
-      "producedTo": "2023-10",
+      "manualCheck": "Vérifiez la date de vente et la référence produit dans la notice officielle ; ces informations ne sont pas lues automatiquement.",
       "regions": [
         "Royaume-Uni"
       ],
@@ -284,8 +293,7 @@
       "hazard": "Le boulon qui relie la potence à la suspension avant et à la roue peut se desserrer, et l'ensemble se séparer : risque de chute. 7 boulons cassés signalés, dont 3 blessés. Environ 3 900 trottinettes.",
       "id": "apollo-phantom-boulon-potence-2023",
       "identify": "Apollo Phantom V1, V2 et 60V vendues de juin 2021 à mai 2023 ; « Apollo Phantom » est inscrit sur le grip du plateau et sous la trottinette avec l'année-modèle.",
-      "producedFrom": "2021-06",
-      "producedTo": "2023-05",
+      "manualCheck": "Vérifiez que la trottinette est une Phantom V1, V2 ou 60V de la période concernée ; version et année-modèle ne sont pas lues automatiquement.",
       "regions": [
         "États-Unis"
       ],
@@ -308,8 +316,7 @@
       "hazard": "Certaines poignées de guidon peuvent se desserrer : risque de blessure.",
       "id": "pure-advance-poignees-2023",
       "identify": "Pure Advance et Advance+ vendues du 1er mars au 10 mai 2023, coloris noir, gris clair, gris métallisé ou platine (réf. SCPUR0020-00001, SCPUR0020-00002, SCPUR0021-00001, SCPUR0021-00002).",
-      "producedFrom": "2023-03",
-      "producedTo": "2023-05",
+      "manualCheck": "Vérifiez la date de vente et la référence produit dans la notice officielle ; ces informations ne sont pas lues automatiquement.",
       "regions": [
         "Royaume-Uni"
       ],
@@ -332,6 +339,7 @@
       "hazard": "De l'eau (notamment lors d'un lavage haute pression) peut passer le joint autour du bouton de commande de la batterie et provoquer un court-circuit : risque d'incendie et de brûlure. Aucun incident signalé. Environ 4 500 batteries aux États-Unis.",
       "id": "specialized-levo-kenevo-batterie-m1-2021",
       "identify": "Turbo Levo FSR 2016-2018, Turbo Levo HT 2018-2021 et Turbo Kenevo FSR 2018-2019 avec batterie M1 (bouton de commande sur le côté de la batterie), y compris batteries vendues seules. Retirez la batterie (clé Allen 6 mm) et lisez l'étiquette : références B9JE2045F, B9JE2055F, B9JE2056F, B9JE2064F, B9JE2065F, B9JE2076F, B9JE2077F, B9JE2098F, B9JM2041F ou B9JM2042F, avec date de fabrication de G7 à C9. Le périmètre a été élargi en août 2022 : revérifiez même si la batterie avait été déclarée non concernée.",
+      "manualCheck": "Vérifiez la référence de batterie parmi les modèles indiqués dans la notice ; elle n'est pas lue automatiquement.",
       "producedFrom": "2017-07",
       "producedTo": "2019-03",
       "regions": [
@@ -361,8 +369,7 @@
       "hazard": "La structure de pliage du cadre n'est pas assez résistante à l'usage prolongé : le cadre peut casser en deux. 2 989 vélos concernés.",
       "id": "fiido-x-cadre-2022",
       "identify": "Tous les Fiido X fabriqués entre septembre 2021 et mars 2022, quel que soit le canal de vente (Indiegogo, site officiel, distributeurs).",
-      "producedFrom": "2021-09",
-      "producedTo": "2022-03",
+      "manualCheck": "Vérifiez la date de fabrication du cadre (septembre 2021 à mars 2022) selon la notice Fiido ; cette date n'est pas lue automatiquement.",
       "regions": [
         "Monde"
       ],
@@ -385,8 +392,7 @@
       "hazard": "Sur les M365 fabriquées avec un crochet de pliage en alliage d'aluminium, une surcharge (deux personnes) ou des chocs répétés peuvent affaiblir le crochet ; sans entretien, il peut céder et la potence se replier pendant la conduite : risque de chute.",
       "id": "xiaomi-m365-crochet-pliage-2020",
       "identify": "M365 fabriquées entre septembre 2017 et octobre 2018. Sur le mécanisme de pliage : une vis à six pans d'un côté et un écrou rond de l'autre = crochet acier (non concerné) ; une vis à six pans des deux côtés = crochet aluminium (concerné). En cas de doute, saisissez le numéro de série (préfixe SN, sur le côté de la base) sur la page de l'avis.",
-      "producedFrom": "2017-09",
-      "producedTo": "2018-10",
+      "manualCheck": "Vérifiez visuellement le type de crochet (deux vis à six pans = aluminium) ou le numéro de série sur l'avis officiel ; ce contrôle n'est pas automatisé.",
       "regions": [
         "Monde"
       ],
@@ -409,8 +415,6 @@
       "hazard": "Une vis du système de pliage peut se desserrer ou casser, et la colonne de direction se séparer du châssis pendant la conduite : risque de perte de contrôle et de chute. 10 257 trottinettes concernées.",
       "id": "xiaomi-m365-vis-pliage-2019",
       "identify": "M365 produites entre le 27 octobre et le 5 décembre 2018, surtout vendues au Royaume-Uni. Numéros de série (sous le plateau) de 21074/00000316 à 21074/00015107 et de 16133/00541209 à 16133/00544518. Les M365 vendues par les revendeurs agréés en France ne sont pas concernées.",
-      "producedFrom": "2018-10",
-      "producedTo": "2018-12",
       "regions": [
         "Royaume-Uni",
         "Irlande",
@@ -722,6 +726,78 @@
       ],
       "voltage": 48
     },
+    "avinox|FP700": {
+      "capacityMah": 19400,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 700,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 36.1,
+      "weightKg": 3.18
+    },
+    "avinox|FS600": {
+      "capacityMah": 16700,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 600,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 35.9,
+      "weightKg": 2.87
+    },
+    "avinox|FS800": {
+      "capacityMah": 22300,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 800,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 35.9,
+      "weightKg": 3.74
+    },
+    "avinox|RS480": {
+      "capacityMah": 16700,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 480,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 28.7,
+      "weightKg": 2.49
+    },
+    "avinox|RS600": {
+      "capacityMah": 16700,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 600,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 35.9,
+      "weightKg": 2.96
+    },
+    "avinox|RS800": {
+      "capacityMah": 22000,
+      "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "80 % de capacité après 500 cycles complets à 25 °C (essai laboratoire)",
+      "energyWh": 800,
+      "notes": [
+        "Poids annoncé approximatif."
+      ],
+      "voltage": 35.9,
+      "weightKg": 4.0
+    },
     "bafang-b06|BBS02B 750 W": {
       "motor": "750 W · 100–120 Nm (contrôleur 25 A)",
       "notes": [
@@ -1030,8 +1106,16 @@
       "weightKg": 5.1
     },
     "comodule|Super73 Z Miami SE": {
+      "energyWh": 480,
+      "motor": "500 W nominal",
       "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
+        "Données secondaires : autonomie de 35 mi annoncée."
+      ],
+      "range": "35 mi (≈ 56 km)",
+      "unofficial": [
+        "energy",
+        "motor",
+        "range"
       ]
     },
     "comodule|Super73 Z-Adventure Core": {
@@ -1249,11 +1333,7 @@
       "range": "55 km",
       "voltage": 37
     },
-    "egret|X Core+": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "egret|X Core+": {},
     "egret|X Prime": {
       "capacityMah": 13500,
       "cells": "13S",
@@ -1291,6 +1371,15 @@
         "motor"
       ],
       "voltage": 48
+    },
+    "fazua-ride60|ENERGY 430": {
+      "energyWh": 430,
+      "motor": "RIDE 60 · 60 Nm · 450 W max · moteur 1,96 kg"
+    },
+    "fazua-ride60|ENERGY 480": {
+      "energyWh": 480,
+      "motor": "RIDE 60 · 60 Nm · 450 W max · moteur 1,96 kg",
+      "weightKg": 2.4
     },
     "fiido|Air": {
       "capacityMah": 5800,
@@ -1408,11 +1497,7 @@
       "range": "55 km",
       "voltage": 36
     },
-    "fiido|T1 Pro": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "fiido|T1 Pro": {},
     "fiido|T2": {
       "capacityMah": 20800,
       "chargeTime": "7 h",
@@ -1494,6 +1579,13 @@
         "IPX6"
       ],
       "weightKg": 4.4
+    },
+    "hepha|Generation 8 · 600 Wh": {
+      "charger": "6 A · 635 g · IP65",
+      "energyWh": 600,
+      "notes": [
+        "Range-Doubler optionnel : capacité totale annoncée jusqu'à 1 200 Wh."
+      ]
     },
     "inokim|Light 2": {
       "capacityMah": 10400,
@@ -1693,11 +1785,7 @@
       ],
       "voltage": 52
     },
-    "inokim|Quick 4 Super": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "inokim|Quick 4 Super": {},
     "iscooter-kcq|i10": {
       "capacityMah": 15000,
       "chargeTime": "6–8 h",
@@ -1930,11 +2018,16 @@
       "voltage": 52
     },
     "kukirin|G2 Max": {
-      "capacityMah": 20000,
+      "capacityMah": 20800,
+      "cells": "18650",
       "chargeTime": "10–11 h",
+      "charger": "54,6 V · 2 A",
       "chemistry": "lithiumIon",
-      "energyWh": 960,
+      "energyWh": 998.4,
       "motor": "1 000 W · 1 200 W max",
+      "notes": [
+        "Certaines boutiques affichent « 960 Wh » (48 V × 20 Ah)"
+      ],
       "range": "70 km",
       "unofficial": [
         "chargeTime"
@@ -2207,9 +2300,17 @@
       "voltage": 48
     },
     "kukirin|M4 Max": {
+      "motor": "800 W",
       "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
+        "Les fiches consultées divergent sur la capacité (18 Ah ou 18,2 Ah) ; valeur non retenue."
+      ],
+      "range": "64 km",
+      "unofficial": [
+        "motor",
+        "range",
+        "voltage"
+      ],
+      "voltage": 48
     },
     "kukirin|M5 Pro": {
       "capacityMah": 20000,
@@ -2225,14 +2326,27 @@
       "voltage": 48
     },
     "kukirin|S1 Max": {
+      "motor": "350 W",
       "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
+        "La fiche consultée ne précise pas les caractéristiques de la batterie."
+      ],
+      "range": "39 km",
+      "unofficial": [
+        "motor",
+        "range"
       ]
     },
     "kukirin|T3": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
+      "capacityMah": 15600,
+      "energyWh": 749,
+      "range": "58 km",
+      "unofficial": [
+        "capacity",
+        "energy",
+        "range",
+        "voltage"
+      ],
+      "voltage": 48
     },
     "mahle-smartbike|X20": {
       "batteryPower": "3,2 A max",
@@ -2344,11 +2458,7 @@
       ],
       "voltage": 60
     },
-    "minimotors-dualtron|Eagle": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "minimotors-dualtron|Eagle": {},
     "minimotors-dualtron|Eagle Pro": {
       "capacityMah": 22400,
       "cells": "Cellules LG",
@@ -2403,11 +2513,7 @@
       ],
       "voltage": 52
     },
-    "minimotors-dualtron|Mini Special": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "minimotors-dualtron|Mini Special": {},
     "minimotors-dualtron|Popular": {
       "capacityMah": 25000,
       "cells": "Cellules LG",
@@ -2437,11 +2543,7 @@
       ],
       "voltage": 52
     },
-    "minimotors-dualtron|Raptor": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "minimotors-dualtron|Raptor": {},
     "minimotors-dualtron|Raptor 2": {
       "capacityMah": 18200,
       "chemistry": "lithiumIon",
@@ -2454,11 +2556,7 @@
       ],
       "voltage": 60
     },
-    "minimotors-dualtron|Spider": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "minimotors-dualtron|Spider": {},
     "minimotors-dualtron|Spider 2": {
       "capacityMah": 30000,
       "cells": "21700 LG (30 Ah) ou SincPower (24 Ah)",
@@ -2595,11 +2693,7 @@
       ],
       "voltage": 60
     },
-    "minimotors-dualtron|Ultra": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "minimotors-dualtron|Ultra": {},
     "minimotors-dualtron|Ultra 2": {
       "capacityMah": 35000,
       "chargeTime": "≈ 23 h (≈ 5 h rapide)",
@@ -2786,6 +2880,8 @@
       "capacityMah": 12500,
       "cells": "13S",
       "chargeTime": "8 h",
+      "cycleLife": 500,
+      "cycleLifeNote": "(≥ 80 % de capacité)",
       "energyWh": 600,
       "motor": "500 W · 900 W max",
       "range": "65 km",
@@ -3030,11 +3126,7 @@
       ],
       "voltage": 36
     },
-    "neoline|T26 Plus": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "neoline|T26 Plus": {},
     "neoline|T27": {
       "capacityMah": 7800,
       "chargeTime": "≈ 5 h",
@@ -3138,6 +3230,7 @@
       ]
     },
     "ninebot-classic|E2 Pro": {
+      "batteryRef": "AB.05.14.00.0214",
       "capacityMah": 7650,
       "chargeTime": "≈ 5–5,5 h",
       "chemistry": "lithiumIon",
@@ -3145,6 +3238,7 @@
       "motor": "350 W · 750 W max",
       "range": "40 km",
       "unofficial": [
+        "batteryRef",
         "motor"
       ],
       "voltage": 36
@@ -3314,6 +3408,7 @@
       "voltage": 36
     },
     "ninebot-classic|F2": {
+      "batteryRef": "AB.05.12.00.0031",
       "capacityMah": 10200,
       "chargeTime": "6,5 h",
       "charger": "41 V · 1,7 A · 70 W",
@@ -3511,6 +3606,7 @@
       "voltage": 36
     },
     "ninebot-classic|F40": {
+      "batteryRef": "AB.50.0011.62",
       "capacityMah": 10200,
       "chargeTime": "6,5 h",
       "charger": "41 V · 1,7 A",
@@ -3827,7 +3923,7 @@
       "energyWh": 1086,
       "motor": "650 W",
       "notes": [
-        "La fiche européenne P100SE annonce 1 200 Wh"
+        "Certaines fiches commerciales annoncent 1 200 Wh (valeur arrondie) ; l'énergie nominale constructeur est 1 086 Wh"
       ],
       "range": "100 km",
       "unofficial": [
@@ -3837,14 +3933,19 @@
       "voltage": 47.2
     },
     "ninebot-classic|P100SE": {
+      "capacityMah": 23000,
       "chargeTime": "≈ 7 h",
       "chemistry": "lithiumIon",
-      "energyWh": 1200,
+      "energyWh": 1086,
       "notes": [
-        "Version européenne de la P100S",
-        "La fiche UE annonce 1 200 Wh, le manuel US de la P100S 1 086 Wh"
+        "Version européenne de la P100S, même batterie",
+        "Certaines fiches UE annoncent 1 200 Wh (valeur arrondie)"
       ],
-      "range": "100 km"
+      "range": "100 km",
+      "unofficial": [
+        "voltage"
+      ],
+      "voltage": 47.2
     },
     "ninebot-classic|P65": {
       "batteryRef": "NCAF4813A",
@@ -3928,6 +4029,8 @@
       "capacityMah": 5200,
       "chargeTime": "5–6 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 243,
       "motor": "300 W · 600 W max",
       "range": "29 km",
@@ -3937,6 +4040,8 @@
       "capacityMah": 5200,
       "chargeTime": "5–6 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 243,
       "motor": "300 W · 600 W max",
       "range": "29 km",
@@ -3945,6 +4050,8 @@
     "niu-kqi|KQi 200F": {
       "capacityMah": 7800,
       "chargeTime": "6–7 h",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 365,
       "motor": "350 W · 700 W max",
       "range": "54 km",
@@ -3954,6 +4061,8 @@
       "capacityMah": 7800,
       "chargeTime": "6–7 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 365,
       "motor": "350 W · 700 W max",
       "range": "54 km",
@@ -3963,6 +4072,8 @@
       "capacityMah": 10400,
       "chargeTime": "5 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 486.7,
       "motor": "450 W · 900 W max",
       "range": "48 km",
@@ -3972,6 +4083,8 @@
       "capacityMah": 13000,
       "chargeTime": "6 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 608.4,
       "motor": "500 W · 1 000 W max",
       "range": "60 km",
@@ -3980,6 +4093,8 @@
     "niu-kqi|KQi Air": {
       "capacityMah": 9400,
       "chargeTime": "5 h",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 451.2,
       "motor": "350 W · 700 W max",
       "range": "50 km",
@@ -3991,6 +4106,8 @@
     "niu-kqi|KQi Air X": {
       "chargeTime": "5 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 451.2,
       "motor": "350 W · 700 W max",
       "range": "50 km",
@@ -4000,6 +4117,8 @@
       "capacityMah": 5100,
       "chargeTime": "≈ 5 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 243,
       "motor": "250 W · 450 W max",
       "range": "25 km",
@@ -4013,6 +4132,8 @@
       "capacityMah": 7600,
       "chargeTime": "7 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 365,
       "motor": "300 W · 600 W max (UE : 250 W)",
       "range": "40 km",
@@ -4026,6 +4147,8 @@
       "cells": "18650",
       "chargeTime": "8 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 608.4,
       "motor": "450 W · 900 W max",
       "range": "65 km",
@@ -4040,6 +4163,8 @@
       "chargeTime": "6 h",
       "charger": "108 W",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 486,
       "motor": "350 W · 700 W max",
       "range": "50 km",
@@ -4056,12 +4181,22 @@
       "cells": "18650",
       "chargeTime": "5 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(sans baisse notable à l'usage)",
       "energyWh": 365,
       "motor": "300 W · 600 W max",
       "range": "40 km",
       "unofficial": [
         "capacity",
         "cells"
+      ],
+      "voltage": 48
+    },
+    "reevo|Reevo": {
+      "chargeTime": "3 h",
+      "motor": "250 W (UE) · 750 W (États-Unis)",
+      "notes": [
+        "Le fabricant annonce une batterie amovible de 48 V et une recharge en 3 h. Capacité, énergie, chimie et masse de la batterie seule non publiées."
       ],
       "voltage": 48
     },
@@ -4084,6 +4219,8 @@
     },
     "rockrider-e-actv-100-lf|Btwin E-Fold 500": {
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(1 cycle = recharge de 0 à 100 %)",
       "energyWh": 252,
       "motor": "250 W · 35 Nm (moyeu arrière)",
       "notes": [
@@ -4265,6 +4402,8 @@
       "capacityMah": 11600,
       "chargeTime": "4 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 418,
       "notes": [
         "Énergie nominale : 393 Wh"
@@ -4276,6 +4415,8 @@
       "capacityMah": 11600,
       "chargeTime": "≈ 3–3,5 h",
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 418,
       "notes": [
         "Batterie tube diagonal (externe)"
@@ -4286,6 +4427,8 @@
       "capacityMah": 14000,
       "cells": "10S4P · 40 × 18650 Murata VC7",
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 504,
       "notes": [
         "Énergie nominale : 468 Wh"
@@ -4296,6 +4439,8 @@
     "shimano-steps|BT-E8014": {
       "capacityMah": 11600,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 418,
       "notes": [
         "Version Japon : 10,9 Ah · 393 Wh"
@@ -4305,6 +4450,8 @@
     },
     "shimano-steps|BT-E8016": {
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 630,
       "unofficial": [
         "weight"
@@ -4313,6 +4460,8 @@
     },
     "shimano-steps|BT-E8020": {
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 504,
       "notes": [
         "Batterie intégrée au tube diagonal"
@@ -4322,6 +4471,8 @@
     "shimano-steps|BT-E8035": {
       "capacityMah": 14000,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 504,
       "notes": [
         "Énergie nominale : 468 Wh"
@@ -4332,6 +4483,8 @@
     "shimano-steps|BT-E8035-L": {
       "capacityMah": 14000,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 504,
       "notes": [
         "Énergie nominale : 468 Wh"
@@ -4343,16 +4496,20 @@
       "capacityMah": 17500,
       "cells": "10S5P · 50 × 18650 Murata VC7",
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 630,
       "notes": [
         "Énergie nominale : 583 Wh"
       ],
       "voltage": 36,
-      "weightKg": 3.6
+      "weightKg": 3.7
     },
     "shimano-steps|BT-EN606": {
       "capacityMah": 17500,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 630,
       "notes": [
         "Batterie externe, système Gen. 2"
@@ -4365,6 +4522,8 @@
     "shimano-steps|BT-EN805": {
       "capacityMah": 14000,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 504,
       "notes": [
         "Variante BT-EN805-L identique en capacité",
@@ -4375,12 +4534,44 @@
     "shimano-steps|BT-EN806": {
       "capacityMah": 17500,
       "chemistry": "lithiumIon",
+      "cycleLife": 1000,
+      "cycleLifeNote": "(≈ 60 % de capacité après 1 000 charges complètes)",
       "energyWh": 630,
       "notes": [
         "Système Gen. 2"
       ],
       "voltage": 36
     },
+    "soflow-encrypted|SO One": {},
+    "soflow-encrypted|SO One+": {},
+    "soflow-encrypted|SO X": {},
+    "soflow-encrypted|SO2 Air (2e gén.)": {},
+    "soflow-encrypted|SO4 Pro Max": {
+      "capacityMah": 12000,
+      "chargeTime": "6–7 h",
+      "energyWh": 576,
+      "motor": "500 W · 1 300 W max",
+      "range": "75 km",
+      "unofficial": [
+        "batteryPower",
+        "batteryRef",
+        "capacity",
+        "cells",
+        "chargeTime",
+        "charger",
+        "chemistry",
+        "cycleLife",
+        "energy",
+        "motor",
+        "range",
+        "voltage",
+        "weight"
+      ],
+      "voltage": 48
+    },
+    "soflow-encrypted|SO4 UL": {},
+    "soflow-encrypted|SO5 Pro": {},
+    "soflow-encrypted|SO6": {},
     "soflow-so4|SO4 3rd Gen": {
       "capacityMah": 7800,
       "chemistry": "lithiumIon",
@@ -4405,34 +4596,7 @@
       ],
       "voltage": 48
     },
-    "soflow-so4|SO4 Pro Max": {
-      "capacityMah": 12000,
-      "chargeTime": "6–7 h",
-      "energyWh": 576,
-      "motor": "500 W · 1 300 W max",
-      "range": "75 km",
-      "unofficial": [
-        "batteryPower",
-        "batteryRef",
-        "capacity",
-        "cells",
-        "chargeTime",
-        "charger",
-        "chemistry",
-        "cycleLife",
-        "energy",
-        "motor",
-        "range",
-        "voltage",
-        "weight"
-      ],
-      "voltage": 48
-    },
-    "specialized-tcu1|Turbo Kenevo (2018-2019)": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "specialized-tcu1|Turbo Kenevo (2018-2019)": {},
     "specialized-tcu1|Turbo Levo (2018)": {
       "batteryRef": "98917-5622 (SBC-B06 / B07 / B08)",
       "cells": "18650",
@@ -4453,16 +4617,9 @@
       "voltage": 36,
       "weightKg": 2.9
     },
-    "specialized-tcu1|Turbo Levo FSR (2016-2018)": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
-    "specialized-tcu1|Turbo Levo HT (2018-2021)": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "specialized-tcu1|Turbo Levo FSR (2016-2018)": {},
+    "specialized-tcu1|Turbo Levo HT (2018-2021)": {},
+    "specialized-tcx1|TCX1": {},
     "specialized-tcx|Turbo Como": {
       "chargeTime": "≈ 5 h (710 Wh) · ≈ 4 h (530 Wh)",
       "charger": "4 A",
@@ -4646,6 +4803,9 @@
       "voltage": 48,
       "weightKg": 1.8
     },
+    "tenways-cgo800-plus|CGO800 Plus": {},
+    "tenways-kingmeter|AGO": {},
+    "tenways-kingmeter|AGO AIR": {},
     "tenways-kingmeter|AGO T": {
       "capacityMah": 14000,
       "cells": "Cellules LG",
@@ -4678,6 +4838,7 @@
       ],
       "voltage": 36
     },
+    "tenways-kingmeter|CGO COMPACT_D": {},
     "tenways-kingmeter|CGO Compact": {
       "capacityMah": 14000,
       "chemistry": "lithiumIon",
@@ -4685,6 +4846,7 @@
       "motor": "Tenways C9 (moyeu) · 250 W · 45 Nm",
       "voltage": 36
     },
+    "tenways-kingmeter|CGO001": {},
     "tenways-kingmeter|CGO009": {
       "capacityMah": 10400,
       "chemistry": "lithiumIon",
@@ -4738,6 +4900,9 @@
       ],
       "voltage": 36
     },
+    "tenways-kingmeter|CGO600 Pro-C": {},
+    "tenways-kingmeter|CGO600 Pro_T": {},
+    "tenways-kingmeter|CGO600_D": {},
     "tenways-kingmeter|CGO800S": {
       "capacityMah": 10400,
       "chargeTime": "4 h",
@@ -4763,6 +4928,8 @@
     "tenways-kingmeter|Cargo One": {
       "motor": "Bafang M600 Cargo · 250 W · 100 Nm"
     },
+    "tenways-kingmeter|Longtail Duo": {},
+    "tenways-kingmeter|Wayfarer_B": {},
     "teverun|Blade GT II": {
       "batteryPower": "BMS intelligent",
       "capacityMah": 26000,
@@ -4779,11 +4946,7 @@
       ],
       "voltage": 60
     },
-    "teverun|Blade GT II+": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "teverun|Blade GT II+": {},
     "teverun|Blade GT+ II": {
       "capacityMah": 31500,
       "cells": "21700 DMEGC",
@@ -4804,11 +4967,7 @@
       ],
       "voltage": 60
     },
-    "teverun|Blade Mini Pro": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "teverun|Blade Mini Pro": {},
     "teverun|Blade Mini Ultra": {
       "capacityMah": 27000,
       "cells": "16S · 21700 DMEGC",
@@ -4879,38 +5038,65 @@
     "teverun|Fighter Mini": {
       "batteryPower": "BMS intelligent",
       "capacityMah": 30000,
-      "cells": "21700",
+      "cells": "21700 DMEGC",
       "chemistry": "lithiumIon",
       "energyWh": 1560,
       "motor": "2 × 1 000 W · 2 950 W max",
       "notes": [
-        "Version ECO : 15,6 Ah Samsung 18650 *"
+        "Version la plus capacitive (52 V · 30 Ah, cellules DMEGC)",
+        "Existe aussi en Eco (20,8 Ah) et Std (24,5 Ah) : voir leurs fiches"
       ],
       "range": "90 km",
       "voltage": 52
     },
+    "teverun|Fighter Mini Eco": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 20800,
+      "cells": "18650 DMEGC",
+      "charger": "58,8 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1081.6,
+      "motor": "2 × 1 000 W · 2 950 W max",
+      "notes": [
+        "Garantie batterie 2 ans (capacité 6 mois)"
+      ],
+      "range": "50 km",
+      "voltage": 52
+    },
     "teverun|Fighter Mini Pro": {
       "batteryPower": "BMS intelligent",
-      "capacityMah": 25000,
-      "cells": "16S · 21700 LG ou Samsung",
+      "capacityMah": 31800,
+      "cells": "21700 Samsung",
       "charger": "67,2 V · 5 A",
       "chemistry": "lithiumIon",
-      "energyWh": 1500,
-      "motor": "2 × 1 000 W · 2 950 W max",
-      "range": "80–90 km",
+      "energyWh": 1908,
+      "motor": "2 × 1 000 W · 3 360 W max",
+      "notes": [
+        "Version actuelle : 60 V · 31,8 Ah Samsung",
+        "Premières séries : 60 V · 25 Ah · 1 500 Wh *"
+      ],
+      "range": "100 km",
       "unofficial": [
-        "cells",
-        "charger",
-        "motor",
-        "range"
+        "charger"
       ],
       "voltage": 60
     },
-    "teverun|Fighter Q": {
+    "teverun|Fighter Mini Std": {
+      "batteryPower": "BMS intelligent",
+      "capacityMah": 24500,
+      "cells": "21700 Samsung",
+      "charger": "58,8 V · 2 A",
+      "chemistry": "lithiumIon",
+      "energyWh": 1274,
+      "motor": "2 × 1 000 W · 2 950 W max",
       "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
+        "Garantie batterie 2 ans (capacité 6 mois)",
+        "Le texte de la fiche cite aussi des cellules DMEGC"
+      ],
+      "range": "80 km",
+      "voltage": 52
     },
+    "teverun|Fighter Q": {},
     "teverun|Fighter Supreme 7260R": {
       "batteryPower": "BMS intelligent",
       "capacityMah": 60000,
@@ -4974,6 +5160,18 @@
       ],
       "voltage": 60
     },
+    "tianpower-bms|": {
+      "notes": [
+        "Batteries de capacités diverses : la capacité, la tension et les cycles sont lus sur le BMS."
+      ]
+    },
+    "tq-hpr|HPR50 · 360 Wh": {
+      "energyWh": 360,
+      "motor": "HPR50 · 50 Nm · 300 W max"
+    },
+    "tq-hpr|HPR60 · batterie OEM": {
+      "motor": "HPR60 · 60 Nm · 350 W max · moteur 1,924 kg"
+    },
     "tsdz2-esp32|": {
       "motor": "250 W (option 350 W) · 80 Nm · 675–870 W max",
       "notes": [
@@ -5027,7 +5225,8 @@
       "chemistry": "lithiumIon",
       "energyWh": 478,
       "notes": [
-        "Cadre repris des S3 / X3, batterie non amovible"
+        "Cadre repris des S3 / X3, batterie non amovible",
+        "Batterie supplémentaire optionnelle (PowerBank) d'environ 378 Wh, à ne pas confondre"
       ],
       "range": "60–150 km",
       "unofficial": [
@@ -5057,7 +5256,8 @@
       "chemistry": "lithiumIon",
       "energyWh": 478,
       "notes": [
-        "Cadre repris des S3 / X3, batterie non amovible"
+        "Cadre repris des S3 / X3, batterie non amovible",
+        "Batterie supplémentaire optionnelle (PowerBank) d'environ 378 Wh, à ne pas confondre"
       ],
       "range": "60–150 km",
       "unofficial": [
@@ -5143,15 +5343,22 @@
       ],
       "voltage": 36
     },
-    "vmax-gpst|R40": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
-    },
+    "vmax-gpst|R40": {},
     "vmax-gpst|R55 Pro": {
-      "notes": [
-        "Fiche du constructeur introuvable ou contradictoire : aucune valeur retenue."
-      ]
+      "capacityMah": 18200,
+      "chargeTime": "≈ 9 h",
+      "energyWh": 874,
+      "motor": "2 100 W",
+      "range": "60 km",
+      "unofficial": [
+        "capacity",
+        "chargeTime",
+        "energy",
+        "motor",
+        "range",
+        "voltage"
+      ],
+      "voltage": 48
     },
     "vmax-gpst|VX2": {
       "capacityMah": 13000,
@@ -5454,6 +5661,8 @@
       "chargeTime": "5,5 h",
       "charger": "42 V · 71 W",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(≥ 70 % de capacité)",
       "energyWh": 275,
       "motor": "300 W · 600 W max",
       "range": "30 km",
@@ -5582,11 +5791,14 @@
       "weightKg": 3
     },
     "xiaomi-m365|Pro 2": {
+      "batteryRef": "NED1004-K",
       "capacityMah": 12400,
       "cells": "10S4P · 40 × 18650",
       "chargeTime": "8–9 h",
       "charger": "42 V · 70 W",
       "chemistry": "lithiumIon",
+      "cycleLife": 500,
+      "cycleLifeNote": "(≥ 70 % de capacité)",
       "energyWh": 446,
       "motor": "300 W · 600 W max",
       "notes": [
@@ -5594,6 +5806,7 @@
       ],
       "range": "45 km",
       "unofficial": [
+        "batteryRef",
         "cells",
         "voltage"
       ],
@@ -6130,6 +6343,14 @@
       "Joyor X5S",
       "Joyor F5S+"
     ],
+    "avinox": [
+      "FS600",
+      "FS800",
+      "FP700",
+      "RS800",
+      "RS600",
+      "RS480"
+    ],
     "bafang-b06": [
       "BBS02B 750 W",
       "M500",
@@ -6191,6 +6412,10 @@
       "Pro FX",
       "GTs"
     ],
+    "fazua-ride60": [
+      "ENERGY 430",
+      "ENERGY 480"
+    ],
     "fiido": [
       "C11 Pro",
       "M1 Pro 2025",
@@ -6214,6 +6439,9 @@
       "EnergyPak Smart 500",
       "EnergyPak Smart 625",
       "EnergyPak Smart 800"
+    ],
+    "hepha": [
+      "Generation 8 · 600 Wh"
     ],
     "inokim": [
       "Light 2",
@@ -6461,9 +6689,18 @@
       "BT-EN806",
       "BT-EN606"
     ],
+    "soflow-encrypted": [
+      "SO6",
+      "SO4 UL",
+      "SO One",
+      "SO One+",
+      "SO X",
+      "SO5 Pro",
+      "SO2 Air (2e gén.)",
+      "SO4 Pro Max"
+    ],
     "soflow-so4": [
       "SO4 Pro",
-      "SO4 Pro Max",
       "SO4 3rd Gen"
     ],
     "specialized-tcu1": [
@@ -6488,6 +6725,12 @@
       "Turbo Como IGH",
       "Turbo Vado IGH"
     ],
+    "specialized-tcx1": [
+      "TCX1"
+    ],
+    "tenways-cgo800-plus": [
+      "CGO800 Plus"
+    ],
     "tenways-kingmeter": [
       "CGO600",
       "CGO600 Pro",
@@ -6498,7 +6741,16 @@
       "CGO Compact",
       "CGO600 Plus",
       "CGO800S Plus",
-      "Cargo One"
+      "Cargo One",
+      "Longtail Duo",
+      "AGO",
+      "AGO AIR",
+      "Wayfarer_B",
+      "CGO001",
+      "CGO600_D",
+      "CGO600 Pro-C",
+      "CGO600 Pro_T",
+      "CGO COMPACT_D"
     ],
     "teverun": [
       "Fighter 11",
@@ -6515,7 +6767,13 @@
       "Space Lite",
       "Fighter Q",
       "Blade Mini Pro",
-      "Blade GT II+"
+      "Blade GT II+",
+      "Fighter Mini Eco",
+      "Fighter Mini Std"
+    ],
+    "tq-hpr": [
+      "HPR50 · 360 Wh",
+      "HPR60 · batterie OEM"
     ],
     "vanmoof-sx3": [
       "S3",
@@ -6612,5 +6870,5 @@
       "Apollo City Pro"
     ]
   },
-  "version": 3
+  "version": 13
 }
